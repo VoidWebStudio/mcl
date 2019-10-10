@@ -1,0 +1,159 @@
+.scores-head span {
+    display: block;
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.scores-head p {
+    margin: 0;
+    font-weight: bold;
+    font-family: PT Root UI;
+    font-size: 64px;
+    line-height: 70px;  /* identical to box height, or 109% */
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+
+p.scores-block-p {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;  /* identical to box height, or 125% */
+    letter-spacing: -0.01em;
+    /* margin: 0 !important; */
+    margin-bottom: 29px;
+    color: #000000;
+}
+
+.scores-block {
+    margin-top: 31px;
+}
+
+.scores-img {
+    width: 40px;
+    height: 40px;
+}
+
+.scores-img img {
+    width: 100%;
+}
+
+.scores-row.row {}
+
+.scores-text p {
+    font-family: PT Root UI;
+    font-size: 16px;
+    margin-bottom: 11px;
+    line-height: 20px;  /* or 125% */
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.scores-text span {
+    font-family: PT Root UI;
+    font-size: 28px;
+    line-height: 35px;  /* identical to box height, or 125% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+}
+
+.scores-text {
+    /* max-width: 116px; */
+    margin-top: 15px;
+}
+
+.scores-item {
+    margin-right: 50px;
+    width: 170px;
+    margin-bottom: 59px;
+}
+
+.scores-item:nth-child(4n) {
+    margin-right: 0 !important;
+}
+
+.scores-table-date {
+    padding: 0 0 0 0;
+}
+
+.scores-table-date span {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    color: #76767A;
+    display: block;
+}
+
+.scores-table {
+    padding-top: 35px;
+}
+
+.scores-table-text {
+    padding: 0 0 0 30px;
+}
+
+.scores-table-text span {
+    font-family: PT Root UI;
+    font-size: 17px;
+    line-height: 20px;  /* identical to box height, or 118% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+}
+
+.scores-table-pound {
+    padding: 0 3px 0 0;
+}
+
+.scores-table-pound span {
+    font-family: PT Root UI;
+    font-size: 17px;
+    line-height: 20px;  /* identical to box height, or 118% */
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+}
+
+.scores-table-item {
+    border-bottom: 1px solid #D9D9DE;
+    padding-bottom: 20px;
+    margin-bottom: 19px;
+}
+
+.scores-table-item:last-child {
+    border-bottom: none !important;
+}
+
+
+.scor_body {
+    padding-top: 15px;
+}
+
+section.content.scores {
+    padding-bottom: 0px;
+}
+
+.scores-row.row {
+    margin-bottom: -7px !important;
+}
+section.content.score2 {
+    padding-bottom: 32px;
+}
+
+.scores-table {
+    height: 548px;
+}
+
+
+
+

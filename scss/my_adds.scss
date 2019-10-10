@@ -1,0 +1,156 @@
+.my_adds_heads ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+span.card-info-text {
+    display: block;
+    font-family: PT Root UI;
+    font-size: 13px;
+    line-height: 20px;  /* identical to box height, or 154% */
+    color: #76767A; 
+}
+
+.my_adds_heads ul li a {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;  /* identical to box height, or 167% */
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004DB2;
+}
+
+.my_adds_heads ul li span {
+    color: #7e7e82;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.my_adds_heads li {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    top: -4px;
+}
+
+.my_adds_heads {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D9D9DE;
+}
+
+.my_adds_heads ul:after {content: "";display: block;clear: both;}
+
+.my_adds_heads li:last-child {
+    margin-right: 0 !important;
+}
+
+.my_adds_heads li.act {}
+
+.my_adds_heads ul li a.act {
+    color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+.my_adds_heads {}
+
+.my_adds_body {
+    padding-top: 15px;
+}
+
+button.eddit_btn.my_adds_btn {
+    background-image: url('../images/edit.svg') !important;
+}
+
+button.my_adds_btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    border-radius: 3px;
+    width: 45px;
+    padding: 0 !important;
+    display: inline-block;
+    height: 45px;
+    margin-right: 1px;
+}
+button.my_adds_btn:last-child {
+    margin-right: 0 !important;
+}
+span.card-location.my_adds {
+    display: inline-block;
+}
+
+.content-block.my-addss-page {
+    width: 79.8%;
+}
+
+button.delete_btn.my_adds_btn {
+    background-image: url('../images/delete.svg');
+}
+
+.card-price.my_adds {
+    padding-right: 3px !important;
+    padding-top: 1px;
+}
+
+.card-info.myadds {
+    padding-left: 34px;
+}
+
+.my_adds_item {
+    padding-top: 20px;
+}
+
+.my_adds_body {
+    height: 505px;
+}
+
+.card-price.my_adds div {
+    display: inline-block;
+    margin-right: 25px;
+}
+.card-price.my_adds .card-location {
+    position: relative;
+    top: -2px;
+}
+.my_adds_item.withborder {
+    border-top: none;
+    border-bottom: 1px solid #D9D9DE;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+button.up_btn.my_adds_btn {
+    background-image: url(../images/up2.svg) !important;
+}
+.my_adds_item.withborder:last-child {
+    border: none !important;
+}
+
+.card-info.myadds p.card-info-p {
+    margin-bottom: 6px;
+}
+.my_adds_item .card-star span {
+    background-position: left 0 !important;
+}
+
+.card-info.myadds .card-info-img {
+    position: relative;
+    top: -1px;
+}
+.card-price.my_adds p.card-price-p {
+    position: relative;
+    top: -2px;
+}
+.my_adds_item.withborder {
+    margin-bottom: -1px;
+}
