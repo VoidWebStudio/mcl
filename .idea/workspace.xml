@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a16b416-b730-4adc-95f5-31243235d0ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city1.html" beforeDir="false" afterPath="$PROJECT_DIR$/city1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/city2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgot_pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_pass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_without_reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_without_reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message2.html" beforeDir="false" afterPath="$PROJECT_DIR$/message2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/about.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/account.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/account.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds2.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_adds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores2.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/account.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/account.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/slider-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj2.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj2.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>search</find>
+      <find>search-item</find>
+      <find>oninp</find>
+      <find>act</find>
+      <find>mob-search</find>
+      <find>ields3</find>
+      <find>fields3</find>
+      <find>Россия</find>
+      <find>location-link-mob</find>
+      <find>range-input</find>
+      <find>scale</find>
+      <find>.auth-block</find>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/mcl_markup.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S8x4s8WghVADHS03zukQ3UT04F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a16b416-b730-4adc-95f5-31243235d0ee" name="Default Changelist" comment="" />
+      <created>1570920502517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570920502517</updated>
+      <workItem from="1570920514079" duration="11183000" />
+      <workItem from="1570958838025" duration="5106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
