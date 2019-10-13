@@ -246,6 +246,12 @@ a.location-link:hover .choose-region {display: block !important;}
     box-sizing: border-box;
     border-radius: 3px;
 }
+.search-block{
+    .search-item:hover {
+        border-color:#005ED9;
+    }
+
+}
 
 .search-input {
     width: 80.2%;

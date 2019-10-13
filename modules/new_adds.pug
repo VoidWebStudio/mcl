@@ -37,42 +37,41 @@ div(class="new-adds-block")
      .row
       div(id="add_img_items")
        .row
-
       div(class="add_photo")
        input(type="file", id="add_ph_inp", class="add_ph_class")
        div Претащите фотографии сюда или кликните чтобы выбрать
 
    div(class="new-adds-check-head")
     label
-     input(type="checkbox")
-     div
+     input(type="checkbox" onclick="updateColor(this)")
+     div(class="checked-items")
       p Выделить заголовок красным цветом
       span 500 баллов
    div(class="new-adds-check-ball")
     label
      input(type="radio", name='new_adds_radio')
-     div
+     div(class="checked-items")
       | Поднять в топ на 3 часа
       span 500 баллов
     label
      input(type="radio", name='new_adds_radio')
-     div
+     div(class="checked-items")
       | Поднять в топ на 12 часов
       span 1 500 баллов
     label
      input(type="radio", name='new_adds_radio')
-     div
+     div(class="checked-items")
       | Поднять в топ на 24 часа
       span 3 000 баллов
     label
      input(type="radio", name='new_adds_radio')
-     div
+     div(class="checked-items")
       | Поднять в топ на 72 часа
       span 5 000 баллов
    div(class="new-adds-check-head")
     label
      input(type="checkbox")
-     div
+     div(class="checked-items")
       | Опубликовать позже
       span 500 баллов
    div(class="limit-block")

@@ -1,5 +1,5 @@
 .slider-page-block {
-    max-width: 844px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
 }
@@ -7,13 +7,19 @@
 
 .slider2 {
     border-radius: 3px;
-    max-height: 600px;
+    height: 100%;
 }
 
 .slider-page-block img {
     width: 100%;
+    max-width: 844px;
+    margin: auto;
 }
-
+.slider-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .slider-page {
     background: #333333;
     padding-top: 124px;
@@ -23,7 +29,7 @@
 a.close-slider {
     width: 76px;
     height: 76px;
-    top: 0px;
+    top: 0;
     right: 0;
     position: absolute;
     background-image: url(../images/Cancel4.png);

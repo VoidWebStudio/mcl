@@ -627,6 +627,5 @@ if (ph_btn2) {
 }
 
 
-
 $("#add_tag").tagsinput('items');
 $(".textarea-tag").hashtags();
