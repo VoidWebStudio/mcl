@@ -65,11 +65,11 @@ span.card-info-text {
     padding-top: 15px;
 }
 
-button.eddit_btn.my_adds_btn {
+.eddit_btn.my_adds_btn {
     background-image: url('../images/edit.svg') !important;
 }
 
-button.my_adds_btn {
+.my_adds_btn {
     background-color: #FFFFFF;
     border: 1px solid #D9D9DE;
     box-sizing: border-box;
@@ -82,7 +82,7 @@ button.my_adds_btn {
     height: 45px;
     margin-right: 1px;
 }
-button.my_adds_btn:last-child {
+.my_adds_btn:last-child {
     margin-right: 0 !important;
 }
 span.card-location.my_adds {

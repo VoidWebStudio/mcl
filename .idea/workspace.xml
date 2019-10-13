@@ -4,24 +4,132 @@
     <list default="true" id="8a16b416-b730-4adc-95f5-31243235d0ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city1.html" beforeDir="false" afterPath="$PROJECT_DIR$/city1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/city1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/city1.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city2.html" beforeDir="false" afterPath="$PROJECT_DIR$/city2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/city2.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forgot_pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgot_pass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/image-page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_without_reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_without_reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.hashtags.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.hashtags.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/auth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/auth.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/forgot_pass.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/forgot_pass.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message2.html" beforeDir="false" afterPath="$PROJECT_DIR$/message2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/content.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/content.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/content2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/content2.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/header2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header2.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/my_adds2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/my_adds2.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/new_adds.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/new_adds.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds2.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_adds.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/auth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/auth.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores2.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/city.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/city.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/my_adds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/my_adds.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/new_adds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/new_adds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/slider-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/slider-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/account.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/auth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Documents/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Bold/PT Root UI_Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Light/PT Root UI_Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Medium/PT Root UI_Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/Fonts/PT Root UI_Regular/PT Root UI_Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Bold/PT Root UI_Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Light/PT Root UI_Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Medium/PT Root UI_Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT Root UI_Regular/PT_Root_UI_Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/font/PT_Root_UI_Regular/PT_Root_UI_Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/forgot_pass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/Cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/Cancel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/Check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/accept.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/ava.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/ava2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/logo-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img1-hov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img3-hov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/menu/img6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/mesage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/star-act.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/star2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/сheck2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/images/сheck3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/my_adds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sss/reg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj2.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +199,7 @@
       <updated>1570920502517</updated>
       <workItem from="1570920514079" duration="11183000" />
       <workItem from="1570958838025" duration="5106000" />
-      <workItem from="1570964842372" duration="5189000" />
+      <workItem from="1570964842372" duration="14048000" />
     </task>
     <servers />
   </component>
