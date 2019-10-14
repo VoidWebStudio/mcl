@@ -2836,9 +2836,7 @@ button.star-btn:hover {
     max-width: 375px;
     display: none;
     background: white;
-    padding: 11px 0 10px 50px;
-    overflow-y: auto;
-    height: 100vh; }
+    padding: 11px 0 10px 0; }
   a.location-link-mob {
     text-decoration: none !important;
     padding-left: 30px;
@@ -2951,6 +2949,8 @@ button.star-btn:hover {
     padding: 21px 15px 10px 15px;
     background: #F5F5F7;
     margin-top: 10px; }
+  .mob-menu-block.act {
+    padding-bottom: 0 !important; }
   .header-nav-mob .leftnav-head-btn li {
     margin-right: 26px !important; }
   .leftnav-head-btn button {
@@ -3104,6 +3104,32 @@ button.fix-search.act {
   width: 100%;
   height: 100%;
   display: block; }
+
+button.choose-region-btn-r a {
+  font-family: PT Root UI;
+  font-size: 12px;
+  line-height: 15px;
+  /* or 125% */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Icon, Text Gray */
+  color: #76767A;
+  font-weight: bold; }
+
+.view-obj-info-btn-l div a {
+  color: white !important;
+  text-decoration: none !important; }
+
+.new-adds-check-ball input:checked + div {
+  color: #004DB2; }
+
+.new-adds-check-ball div span {
+  color: #333333 !important; }
 
 button.reg-block-btn-l {
   background: #005ED9;
@@ -3955,7 +3981,6 @@ span.message-user {
     padding-right: 12px;
     padding-top: 20px; }
   a.message-tab-item-mob:first-child {
-    padding-top: 0 !important;
     padding-top: 19px; }
   a.message-tab-item-mob > div {
     border-bottom: 1px solid #DDDDE1;
@@ -4080,6 +4105,21 @@ span.message-user {
     max-width: 375px;
     margin: 0 auto; } }
 
+.send-textarea textarea {
+  outline: none !important; }
+
+.popup-message-head p a {
+  color: #333333;
+  text-decoration: none !important; }
+
+button.prev-mesage-page a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0; }
+
 .my_adds_heads ul {
   list-style-type: none;
   padding: 0;
@@ -4093,8 +4133,6 @@ span.message-user {
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden; }
-  .my_adds_heads ul::-webkit-scrollbar {
-    display: none; }
 
 span.card-info-text {
   display: block;
@@ -6019,7 +6057,8 @@ section.content.view_o2 .view-obj-info-text {
   .view-obj-slider {
     background: transparent !important;
     padding: 0 0px 0 25px !important;
-    margin-right: -15px; }
+    margin-right: -15px;
+    /* overflow: hidden; */ }
   .view-obj-block {
     padding-right: 0 !important; }
   .swiper-button-next1, .swiper-button-prev1 {
