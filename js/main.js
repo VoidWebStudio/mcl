@@ -1,4 +1,3 @@
-
 var mySwiper1 = new Swiper('.slider1', {
     slidesPerView: 'auto',
     spaceBetween: 10,
@@ -656,7 +655,7 @@ $('.up_btn').click(function(){
         popup.addClass('act')
     }
 })
-$('.location-link').click(function(e){
+$('.link-op').click(function(e){
     e.preventDefault();
     $('.city-block1').addClass('act');
   

@@ -1195,3 +1195,29 @@ button.fix-search.act {
     height: 100%;
     display: block;
 }
+button.choose-region-btn-r a {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 15px;
+/* or 125% */
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+/* Icon, Text Gray */
+    color: #76767A;
+    font-weight: bold;
+}
+.view-obj-info-btn-l div a {
+    color: white !important;
+    text-decoration: none !important;
+}
+.new-adds-check-ball input:checked + div {
+    color: #004DB2;
+}
+
+.new-adds-check-ball div span {
+    color: #333333 !important;
+}

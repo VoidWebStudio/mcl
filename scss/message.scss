@@ -371,7 +371,6 @@ a.message-tab-item-mob {
     padding-top: 20px;
 }
 a.message-tab-item-mob:first-child {
-    padding-top: 0 !important;
     padding-top: 19px;
 }
 a.message-tab-item-mob>div {
@@ -515,3 +514,12 @@ a.message-tab-item-mob:hover p{
     margin: 0 auto;
 }
 }
+.send-textarea textarea {
+    outline: none !important;
+}
+.popup-message-head p a {
+    color: #333333;
+    text-decoration: none !important;
+}
+
+button.prev-mesage-page a {position: absolute;width: 100%;height: 100%;display: block;left: 0;top: 0;}

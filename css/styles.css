@@ -3105,6 +3105,32 @@ button.fix-search.act {
   height: 100%;
   display: block; }
 
+button.choose-region-btn-r a {
+  font-family: PT Root UI;
+  font-size: 12px;
+  line-height: 15px;
+  /* or 125% */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Icon, Text Gray */
+  color: #76767A;
+  font-weight: bold; }
+
+.view-obj-info-btn-l div a {
+  color: white !important;
+  text-decoration: none !important; }
+
+.new-adds-check-ball input:checked + div {
+  color: #004DB2; }
+
+.new-adds-check-ball div span {
+  color: #333333 !important; }
+
 button.reg-block-btn-l {
   background: #005ED9;
   /* Condex 3D */
@@ -3956,7 +3982,6 @@ span.message-user {
     padding-right: 12px;
     padding-top: 20px; }
   a.message-tab-item-mob:first-child {
-    padding-top: 0 !important;
     padding-top: 19px; }
   a.message-tab-item-mob > div {
     border-bottom: 1px solid #DDDDE1;
@@ -4080,6 +4105,21 @@ span.message-user {
   .message2 {
     max-width: 375px;
     margin: 0 auto; } }
+
+.send-textarea textarea {
+  outline: none !important; }
+
+.popup-message-head p a {
+  color: #333333;
+  text-decoration: none !important; }
+
+button.prev-mesage-page a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0; }
 
 .my_adds_heads ul {
   list-style-type: none;
