@@ -2836,9 +2836,7 @@ button.star-btn:hover {
     max-width: 375px;
     display: none;
     background: white;
-    padding: 11px 0 10px 50px;
-    overflow-y: auto;
-    height: 100vh; }
+    padding: 11px 0 10px 0; }
   a.location-link-mob {
     text-decoration: none !important;
     padding-left: 30px;
@@ -2951,6 +2949,8 @@ button.star-btn:hover {
     padding: 21px 15px 10px 15px;
     background: #F5F5F7;
     margin-top: 10px; }
+  .mob-menu-block.act {
+    padding-bottom: 0 !important; }
   .header-nav-mob .leftnav-head-btn li {
     margin-right: 26px !important; }
   .leftnav-head-btn button {
@@ -3263,24 +3263,25 @@ section.content {
 .leftnav-head-btn li:last-child {
   margin-right: 0 !important; }
 
-.leftnav-head-btn button {
+.leftnav-head-btn a {
   background: none;
   border: none;
   display: inline-block;
   padding: 0px 0px 0 12px;
-  margin-left: 34px;
   position: relative;
   right: -2px;
   top: -1px; }
 
-.leftnav-head-btn button span {
+.leftnav-head-btn a span {
   font-family: PT Root UI;
   font-size: 10px;
   line-height: 10px;
   text-align: right;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #004DB2; }
+  color: #004DB2;
+  padding-left: 10px;
+  cursor: pointer; }
 
 .leftnav-head-btn li a.act {
   border-color: black;
@@ -3410,17 +3411,17 @@ section.content {
     padding-right: 20px !important; }
   .leftnav-block {
     padding-right: 10px  !important; }
-  .leftnav-head-btn button {
-    margin-left: 10px; } }
+  .leftnav-head-btn a span {
+    padding-left: 0 !important; } }
 
 @media (max-width: 992px) {
   .leftnav-head-btn li {
     margin-right: 0 !important; }
-  .leftnav-head-btn button {
+  .leftnav-head-btn a {
     display: block;
     top: 0px;
     margin-left: 0;
-    margin-top: 20px;
+    margin-top: 5px;
     left: 0;
     padding: 0; } }
 
@@ -4093,8 +4094,6 @@ span.message-user {
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden; }
-  .my_adds_heads ul::-webkit-scrollbar {
-    display: none; }
 
 span.card-info-text {
   display: block;
@@ -4167,8 +4166,7 @@ span.card-info-text {
   width: 45px;
   padding: 0 !important;
   display: inline-block;
-  height: 45px;
-  margin-right: 1px; }
+  height: 45px; }
 
 .my_adds_btn:last-child {
   margin-right: 0 !important; }
@@ -6019,7 +6017,8 @@ section.content.view_o2 .view-obj-info-text {
   .view-obj-slider {
     background: transparent !important;
     padding: 0 0px 0 25px !important;
-    margin-right: -15px; }
+    margin-right: -15px;
+    /* overflow: hidden; */ }
   .view-obj-block {
     padding-right: 0 !important; }
   .swiper-button-next1, .swiper-button-prev1 {

@@ -7,11 +7,6 @@
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
 }
 
 span.card-info-text {
@@ -100,7 +95,6 @@ span.card-info-text {
   padding: 0 !important;
   display: inline-block;
   height: 45px;
-  margin-right: 1px;
 }
 
 .my_adds_btn:last-child {
