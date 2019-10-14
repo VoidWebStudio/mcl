@@ -3105,6 +3105,32 @@ button.fix-search.act {
   height: 100%;
   display: block; }
 
+button.choose-region-btn-r a {
+  font-family: PT Root UI;
+  font-size: 12px;
+  line-height: 15px;
+  /* or 125% */
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  /* Icon, Text Gray */
+  color: #76767A;
+  font-weight: bold; }
+
+.view-obj-info-btn-l div a {
+  color: white !important;
+  text-decoration: none !important; }
+
+.new-adds-check-ball input:checked + div {
+  color: #004DB2; }
+
+.new-adds-check-ball div span {
+  color: #333333 !important; }
+
 button.reg-block-btn-l {
   background: #005ED9;
   /* Condex 3D */
@@ -3263,25 +3289,24 @@ section.content {
 .leftnav-head-btn li:last-child {
   margin-right: 0 !important; }
 
-.leftnav-head-btn a {
+.leftnav-head-btn button {
   background: none;
   border: none;
   display: inline-block;
   padding: 0px 0px 0 12px;
+  margin-left: 34px;
   position: relative;
   right: -2px;
   top: -1px; }
 
-.leftnav-head-btn a span {
+.leftnav-head-btn button span {
   font-family: PT Root UI;
   font-size: 10px;
   line-height: 10px;
   text-align: right;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #004DB2;
-  padding-left: 10px;
-  cursor: pointer; }
+  color: #004DB2; }
 
 .leftnav-head-btn li a.act {
   border-color: black;
@@ -3411,17 +3436,17 @@ section.content {
     padding-right: 20px !important; }
   .leftnav-block {
     padding-right: 10px  !important; }
-  .leftnav-head-btn a span {
-    padding-left: 0 !important; } }
+  .leftnav-head-btn button {
+    margin-left: 10px; } }
 
 @media (max-width: 992px) {
   .leftnav-head-btn li {
     margin-right: 0 !important; }
-  .leftnav-head-btn a {
+  .leftnav-head-btn button {
     display: block;
     top: 0px;
     margin-left: 0;
-    margin-top: 5px;
+    margin-top: 20px;
     left: 0;
     padding: 0; } }
 
@@ -3956,7 +3981,6 @@ span.message-user {
     padding-right: 12px;
     padding-top: 20px; }
   a.message-tab-item-mob:first-child {
-    padding-top: 0 !important;
     padding-top: 19px; }
   a.message-tab-item-mob > div {
     border-bottom: 1px solid #DDDDE1;
@@ -4081,6 +4105,21 @@ span.message-user {
     max-width: 375px;
     margin: 0 auto; } }
 
+.send-textarea textarea {
+  outline: none !important; }
+
+.popup-message-head p a {
+  color: #333333;
+  text-decoration: none !important; }
+
+button.prev-mesage-page a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0; }
+
 .my_adds_heads ul {
   list-style-type: none;
   padding: 0;
@@ -4166,7 +4205,8 @@ span.card-info-text {
   width: 45px;
   padding: 0 !important;
   display: inline-block;
-  height: 45px; }
+  height: 45px;
+  margin-right: 1px; }
 
 .my_adds_btn:last-child {
   margin-right: 0 !important; }

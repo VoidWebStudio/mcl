@@ -74,17 +74,18 @@ section.content {
     margin-right: 0 !important;
 }
 
-.leftnav-head-btn a {
+.leftnav-head-btn button {
     background: none;
     border: none;
     display: inline-block;
     padding: 0px 0px 0 12px;
+    margin-left: 34px;
     position: relative;
     right: -2px;
     top: -1px;
 }
 
-.leftnav-head-btn a span {
+.leftnav-head-btn button span {
     font-family: PT Root UI;
     font-size: 10px;
     line-height: 10px;
@@ -92,8 +93,6 @@ section.content {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #004DB2;
-    padding-left: 10px;
-    cursor: pointer;
 }
 
 .leftnav-head-btn li a.act {
@@ -224,8 +223,8 @@ section.content {
 .leftnav-block {
     padding-right: 10px  !important;
 }
-.leftnav-head-btn a span{
-    padding-left: 0!important;
+.leftnav-head-btn button{
+    margin-left: 10px;
 }
 
 }
@@ -236,11 +235,11 @@ section.content {
     margin-right: 0 !important;
 }
 
-.leftnav-head-btn a {
+.leftnav-head-btn button {
     display: block;
     top: 0px;
     margin-left: 0;
-    margin-top: 5px;
+    margin-top: 20px;
     left: 0;
     padding: 0;
 }
