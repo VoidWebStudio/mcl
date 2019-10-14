@@ -3566,11 +3566,8 @@ button.eddit_btn.my_adds_btn {
   position: relative; }
 
 button.eddit_btn.my_adds_btn a {
-  position: absolute;
   display: block;
   width: 100%;
-  left: 0;
-  top: 0;
   height: 100%; }
 
 button.reg-block-btn-l div a {
@@ -4186,8 +4183,7 @@ span.card-info-text {
   width: 45px;
   padding: 0 !important;
   display: inline-block;
-  height: 45px;
-  margin-right: 1px; }
+  height: 45px; }
 
 .my_adds_btn:last-child {
   margin-right: 0 !important; }
