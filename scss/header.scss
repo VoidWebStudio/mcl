@@ -813,7 +813,9 @@ button.star-btn:hover {
     max-width: 375px;
     display: none;
     background: white;
-    padding: 11px 0 10px 0;
+    padding: 11px 0 10px 50px;
+    overflow-y: auto;
+    height: 100vh;
   }
 
 
@@ -969,7 +971,7 @@ button.star-btn:hover {
     margin-top: 10px;
   }
   .mob-menu-block.act {
-    padding-bottom: 0 !important;
+    //padding-bottom: 0 !important;
   }
 
   .header-nav-mob .leftnav-head-btn li {

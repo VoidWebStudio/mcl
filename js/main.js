@@ -1,7 +1,7 @@
-
 var mySwiper1 = new Swiper('.slider1', {
     slidesPerView: 'auto',
     spaceBetween: 10,
+    slidesOffsetBefore: -10,
     navigation: {
         nextEl: '.swiper-button-next1',
         prevEl: '.swiper-button-prev1',
@@ -18,7 +18,8 @@ var mySwiper1 = new Swiper('.slider1', {
             width: 253
         },
         1024: {
-            spaceBetween: 20,
+            slidesPerView: 'auto',
+            spaceBetween: 10,
         },
     },
 });
@@ -65,9 +66,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
     function mask(event) {
         var matrix = "__.__.____",
-        i = 0,
-        def = matrix.replace(/\D/g, ""),
-        val = this.value.replace(/\D/g, "");
+            i = 0,
+            def = matrix.replace(/\D/g, ""),
+            val = this.value.replace(/\D/g, "");
         def.length >= val.length && (val = def);
         matrix = matrix.replace(/[_\d]/g, function (a) {
             return val.charAt(i++) || "_"
@@ -77,11 +78,12 @@ window.addEventListener("DOMContentLoaded", function () {
         i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
         setCursorPosition(i, this)
     }
+
     function mask2(event) {
         var matrix = "+7 (___) ___-__-__",
-        i = 0,
-        def = matrix.replace(/\D/g, ""),
-        val = this.value.replace(/\D/g, "");
+            i = 0,
+            def = matrix.replace(/\D/g, ""),
+            val = this.value.replace(/\D/g, "");
         def.length >= val.length && (val = def);
         matrix = matrix.replace(/[_\d]/g, function (a) {
             return val.charAt(i++) || "_"
@@ -91,38 +93,39 @@ window.addEventListener("DOMContentLoaded", function () {
         i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
         setCursorPosition(i, this)
     }
+
     function mask3(event) {
-       this.value = this.value.replace(/[^\d]/g, '');
-   }
+        this.value = this.value.replace(/[^\d]/g, '');
+    }
 
 
-   var input = document.querySelector("#date-input");
-   var input2 = document.querySelector("#phone-input");
-   var input3 = document.querySelector("#code-input");
-   if (input) {
-    input.addEventListener("input", mask, false)
-    input.oninput = function () {
-        var input_val = this.value;
-        var arrD = input_val.split(".");
-        arrD[1] -= 1;
-        var d = new Date(arrD[2], arrD[1], arrD[0]);
-        if ((2020 > arrD[2]) && (d.getFullYear() == arrD[2]) && (d.getMonth() == arrD[1]) && (d.getDate() == arrD[0])) {
-            this.classList.remove("act");
-            return true;
-        } else {
-            this.classList.add("act");
-            return false;
-        }
+    var input = document.querySelector("#date-input");
+    var input2 = document.querySelector("#phone-input");
+    var input3 = document.querySelector("#code-input");
+    if (input) {
+        input.addEventListener("input", mask, false)
+        input.oninput = function () {
+            var input_val = this.value;
+            var arrD = input_val.split(".");
+            arrD[1] -= 1;
+            var d = new Date(arrD[2], arrD[1], arrD[0]);
+            if ((2020 > arrD[2]) && (d.getFullYear() == arrD[2]) && (d.getMonth() == arrD[1]) && (d.getDate() == arrD[0])) {
+                this.classList.remove("act");
+                return true;
+            } else {
+                this.classList.add("act");
+                return false;
+            }
 
 
-    };
-}
-if (input2) {
-    input2.addEventListener("input", mask2, false)
-}
-if (input3) {
-    input3.addEventListener("input", mask3, false)
-}
+        };
+    }
+    if (input2) {
+        input2.addEventListener("input", mask2, false)
+    }
+    if (input3) {
+        input3.addEventListener("input", mask3, false)
+    }
 
 });
 
@@ -156,7 +159,7 @@ for (var i = 0; i < serv_bt2.length; i++) {
 }
 
 var mob_clicks = document.querySelectorAll('.mob-menu-btn');
-var body_freez =  document.querySelector('body');
+var body_freez = document.querySelector('body');
 for (var i = 0; i < mob_clicks.length; i++) {
     (function (i) {
         var click = mob_clicks[i];
@@ -174,7 +177,7 @@ for (var i = 0; i < mob_clicks.length; i++) {
                 document.querySelector('.content').classList.add('body-active');
                 this.classList.add("act");
                 child.classList.add("act");
-                
+
             }
         }
     })(i);
@@ -539,8 +542,12 @@ document.querySelector('.content').onclick = () => {
     $('.header-mob-search').removeClass('act');
     $('.header-mob').removeClass('act');
     document.body.style.overflow = 'auto';
-    if (document.querySelector('.content').classList.contains('body-active'))
+    if (document.querySelector('.content').classList.contains('body-active')) {
         document.querySelector('.content').classList.remove('body-active');
+        document.querySelector('.mob-menu-btn').classList.remove('act');
+        document.querySelector('.mob-menu-block').classList.remove('act');
+
+    }
 };
 $(".fix-search").click(function () {
 
@@ -644,9 +651,9 @@ if (ph_btn2) {
     }
 
 }
-$('.up_btn').click(function(){
-    var popup=$(this).parents('.my_adds_item').find('.adv-block-popup');
-    if ($(this).hasClass( "act" )) {
+$('.up_btn').click(function () {
+    var popup = $(this).parents('.my_adds_item').find('.adv-block-popup');
+    if ($(this).hasClass("act")) {
         $(this).removeClass('act')
         popup.removeClass('act')
     } else {
@@ -656,12 +663,12 @@ $('.up_btn').click(function(){
         popup.addClass('act')
     }
 })
-$('.location-link').click(function(e){
+$('.location-link').click(function (e) {
     e.preventDefault();
     $('.city-block1').addClass('act');
-  
+
 })
-$('.close-page').click(function(e){
+$('.close-page').click(function (e) {
     e.preventDefault();
     $('.city-block1').removeClass('act');
 })
