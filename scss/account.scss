@@ -295,41 +295,53 @@ section.content.account-page {
 }
 
 @media(max-width:1301px){
-.account-block-right {
-    padding-left: 5px;
+    .account-page-block{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .account-block-left {
+        padding-right: 5px;
+    }
 }
-.account-block-left {
-    padding-right: 5px;
-}
-}
-@media(max-width:1140px){ 
+@media(max-width:1140px){
+    .account-page-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .account-block-right {
+        display: flex;
+        flex-direction: column;
+        order: 1!important;
+        width: 100%;
+    }
 
+    .account-photo {
+        order: 1;
+        max-width: 191px;
+        margin: 0 auto;
+    }
 
+    .account-block-left {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+        border: none !important;
+    }
+    .leftnav2.col-md-3 {
+        padding-right: 10px;
+    }
 
-
-.account-block-right {
-    width: 100%;
-}
-
-.account-photo {
-    max-width: 191px;
-    margin: 0 auto;
-}
-
-.account-block-left {
-    width: 100%;
-    border: none !important;
-}
-.leftnav2.col-md-3 {
-    padding-right: 10px;
-}
-
-.leftnav-menu {
-    padding-right: 10px;
-}
+    .leftnav-menu {
+        padding-right: 10px;
+    }
 }
 
 @media (max-width: 768px){
+.mobile-cod-block {
+    margin-top: 0 !important;
+}
 .leftnav-menu {
     display: none !important;
 }
@@ -412,4 +424,299 @@ section.content.account-page {
     padding-bottom: 41px !important;
 }
 
+}
+
+p.mobile-cod-block-p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    margin: 0 0 10px 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.mobile-cod-block {
+    margin-top: -30px;
+}
+
+.mobile-cod-input {
+    background: #FFFFFF;
+/* Line */
+    box-sizing: border-box;
+    border-radius: 3px;
+    max-width: 190px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.mobile-cod-input input {
+    width: 100%;
+    border: 1px solid #D4D4D9;
+    height: 100%;
+    font-family: PT Root UI;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.01em;
+    border-radius: 5px;
+/* Icon, Text Gray */
+    color: #76767A;
+    padding: 0px 50px 2px 14px;
+}
+
+button.mobile-cod-btn {
+    position: absolute;
+    font-family: PT Root UI;
+    font-size: 12px;
+    background: white;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    top: 10px;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border: none;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #76767A;
+    right: 1px;
+    border-left: 1px solid #D9D9DE;
+}
+
+.mobile-cod-btn2 button {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 15px;
+/* or 125% */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #005ED9;
+    font-weight: bold;
+    max-width: 80px;
+    background: transparent;
+    border: none !important;
+    outline: none;
+    position: relative;
+    top: -9px;
+}
+
+.mobile-cod-btn2 {
+    display: inline-block;
+    /* margin-top: -8px; */
+    padding-left: 10px;
+}
+button.account-button.act {
+    display: none;
+}
+
+.mobile-cod-block.act {
+    display: block !important;
+}
+
+.mobile-cod-block {
+    display: none;
+}
+
+
+.account-photo-change p {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 20px;
+/* identical to box height, or 167% */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+}
+
+.account-photo-change-block {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.account-photo-change-block img {
+    width: 190px;
+    height: 190px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 18px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: none !important;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  background-image: url(../images/Ellipse.svg);
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -11px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+ 
+}
+input[type=range]::-moz-range-thumb {
+  border: none !important;
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  background-image: url(../images/Ellipse.svg);
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -12px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #A7A7AB;
+}
+
+
+.account-photo-range {
+    margin-top: 13px;
+}
+
+.account-photo-btn {
+    margin-top: 14px;
+}
+
+button.account-button-blue {
+    background: #005ED9;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 190px;
+    border: none !important;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    display: block;
+}
+
+button.account-button-blue div {
+    font-family: PT Root UI;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+}
+.account-photo-change-bl:after {
+    content: "";
+    display: block;
+    width: 200%;
+    position: absolute;
+    background: transparent;
+    border-radius: 100%;
+    border: 115px solid #00000069;
+    overflow: hidden;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: 50;
+}
+
+.account-photo-change-block {
+    position: relative;
+}
+
+.account-photo-change-bl {
+    position: relative;
+    overflow: hidden;
+}
+
+button.delete-image-range {
+    width: 16px;
+    border: none;
+    height: 16px;
+    position: absolute;
+    background: url(../images/Cancel6.svg);
+    right: 15px;
+    background-size: 16px;
+    background-position: center center;
+    top: 15px;
+    cursor: pointer;
+    z-index: 100;
+}
+.account-photo-change-bl {
+    width: 190px;
+    height: 190px;
+}
+@media(max-width: 768px){
+div#add_img_items .row div {
+    width: 165px !important;
+    height: 165px !important;
+    margin-right: 15px !important;
+}
+
+div#add_img_items .row div:nth-child(2n) {
+    margin-right: 0 !important;
+}
+.add_photo.act {
+    width: 165px !important;
+    height: 165px !important;
+    margin-top: 15px !important;
+}
+}
+.account-photo-change {
+    display: none;
+}
+.mobile-cod-input input:focus{
+    border-color: #005ED9!important;
+    outline: none;
+}
+.account-photo-change.act {
+    display: block !important;
+}
+
+.account-photo.act {
+    display: none;
+}
+.account-photo-change {
+    max-width: 190px;
+    margin: 0 auto;
 }

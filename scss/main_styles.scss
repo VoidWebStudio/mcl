@@ -87,3 +87,93 @@ section.content.favort {
     content: "";
     clear: both;
 }
+
+
+
+
+#datepickers-container .-selected- {
+   background: #EF984C;
+   color: #fff !important;
+}#datepickers-container .-current- {
+   color: #EF984C;
+}
+#datepickers-container .datepicker--time-sliders > *:not(:first-child) {
+   margin-top: 9px;
+   margin-bottom: 6px;
+}#datepickers-container .datepicker--time-sliders > *:first-child {
+   margin-top: 6px;
+}
+#datepickers-container input[type=range]::-webkit-slider-thumb {
+   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+   border: 0px;
+   height: 22px;
+   width: 22px;
+   border-radius: 5px;
+   background: #EF984Cee;
+   cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: -11px;
+}
+button.eddit_btn.my_adds_btn {
+    position: relative;
+}
+
+button.eddit_btn.my_adds_btn a {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+button.reg-block-btn-l div a {
+    display: block;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
+button.reg-block-btn-r {
+    position: relative;
+}
+
+button.reg-block-btn-r a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.my_adds_item {
+    position: relative;
+}
+
+.adv-block-popup {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 100;
+    display: none;
+    width: 280px;
+}
+
+
+.adv-block-popup.act {
+    display: block !important;
+}
+@media(max-width:768px){
+
+.adv-block-popup.act {
+    top: 150px !important;
+    width: 100%;
+    /* margin-left: -15px; */
+    /* margin-right: -46px; */
+    left: 0;
+    right: 0;
+}
+
+.adv-block-popup.act .adv-block {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+}

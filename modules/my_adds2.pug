@@ -1,9 +1,9 @@
-div(class="content-block my-addss-page")
+div(class="content-block my-addss-page col-md-9")
  div(class="my_adds_block")
-  div(class="my_adds_heads")
+  div(class="my_adds_heads my_adds_heads--desk")
    ul
     li
-     a(href="my_adds2.html", class="act") Опубликованные
+     a(href="my_adds2.html", class="act") Опулбикованные
       span (3)
     li
      a(href="#") В очереди 
@@ -14,47 +14,180 @@ div(class="content-block my-addss-page")
      a(href="#") На модерации
       span (2)
   div(class="my_adds_body")
+   div(class="my_adds_button")
+    a(href="#", class="leftnav-add")
+      span Добавить объявление
    div(class="my_adds_item withborder")
      .row
       div(class="card-star")
-       span 18:26
+       button(class="card-star-btn")
+       div(class="card-time desk") 18:26
       div(class="card-info myadds")
-       p(class="card-info-p withoutup")
-        a(href='#') ИЩУ РАБОТУ В РЕСТОРАНЕ
+       p(class="card-info-p")
+        a(href='view_obj2.html') ИЩУ РАБОТУ В РЕСТОРАНЕ
        div(class="card-info-footer")
-        a(href='#', class="card-info-img") 2 фото
+        .row
+         div(class="card-foot")
+          div(class="card-time mob") 18:26
+          a(href='#', class="card-info-img") 2 фото
+         div(class="card-price mob")
+          a(href='#', class="card-location") Россия, МОсква
+          p(class="card-price-p") от 20 000 ₽
+        div(class="card-mob-btn")
+         button(class="eddit_btn my_adds_btn")
+          a(href="new_adds2.html")
+         button(class="up_btn my_adds_btn")
       div(class="card-price my_adds")
        div
-        p(class="card-price-p") от 20 000 ₽
         a(href='#', class="card-location") Россия
+        p(class="card-price-p") от 20 000 ₽       
        button(class="eddit_btn my_adds_btn")
+        a(href="new_adds2.html")
        button(class="up_btn my_adds_btn")
+      div(class="adv-block-popup")
+        div(class="adv-block")
+         div(class="adv-block1")
+          div(class="adv-block-h") 
+           p Поднять в топ
+          .row
+           div(class="adv-block-l")
+            span На 3 часа
+           div(class="adv-block-r")
+            span 500.-
+          .row
+           div(class="adv-block-l")
+            span На 12 часов
+           div(class="adv-block-r")
+            span 1 500.-
+          .row
+           div(class="adv-block-l")
+            span На 24 часов
+           div(class="adv-block-r")
+            span 3 000.-
+          .row
+           div(class="adv-block-l")
+            span На 72 часов
+           div(class="adv-block-r")
+            span 5 000.-
+          div(class="adv-block-footer") 
+           .row
+            div(class="adv-block-footer-l")
+             span  Выделить заголовок
+            div(class="adv-block-footer-r")
+             span 500.-
+
    div(class="my_adds_item withborder")
     .row
      div(class="card-star")
-      span 15:15
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info myadds")
-      p(class="card-info-p")
-       a(href='#') Повар из Грузии принимает заказы
+      p(class="card-info-p withup")
+       a(href='view_obj2.html') Повар из Грузии принимает заказы
       div(class="card-info-footer")
-       span(class="card-info-text") В топе до 13 августа, 15:15
+       .row
+        div(class="card-foot")
+         span(class="card-info-text") В топе до 13 августа, 15:15
+         div(class="card-time mob") 18:26
+        div(class="card-price mob")
+         a(href='#', class="card-location my_adds withoutprice") Россия
+       div(class="card-mob-btn")
+         button(class="eddit_btn my_adds_btn")
+          a(href="new_adds2.html")
+         button(class="up_btn my_adds_btn")
+       
      div(class="card-price my_adds")
       div
        a(href='#', class="card-location withoutprice my_adds") Россия
       button(class="eddit_btn my_adds_btn")
+       a(href="new_adds2.html")
       button(class="up_btn my_adds_btn")
+     div(class="adv-block-popup")
+        div(class="adv-block")
+         div(class="adv-block1")
+          div(class="adv-block-h") 
+           p Поднять в топ
+          .row
+           div(class="adv-block-l")
+            span На 3 часа
+           div(class="adv-block-r")
+            span 500.-
+          .row
+           div(class="adv-block-l")
+            span На 12 часов
+           div(class="adv-block-r")
+            span 1 500.-
+          .row
+           div(class="adv-block-l")
+            span На 24 часов
+           div(class="adv-block-r")
+            span 3 000.-
+          .row
+           div(class="adv-block-l")
+            span На 72 часов
+           div(class="adv-block-r")
+            span 5 000.-
+          div(class="adv-block-footer") 
+           .row
+            div(class="adv-block-footer-l")
+             span  Выделить заголовок
+            div(class="adv-block-footer-r")
+             span 500.-
    div(class="my_adds_item withborder")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info myadds")
-      p(class="card-info-p withoutup")
-       a(href='#') Предлагаем увлекательную работу для водителей и грузчиков
+      p(class="card-info-p")
+       a(href='view_obj2.html') Предлагаем увлекательную работу для водителей и грузчиков
       div(class="card-info-footer")
-       a(href='#', class="card-info-img") 2 фото
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href='#', class="card-info-img") 2 фото
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 40 000 ₽
+       div(class="card-mob-btn")
+         button(class="eddit_btn my_adds_btn")
+          a(href="new_adds2.html")
+         button(class="up_btn my_adds_btn")
      div(class="card-price my_adds")
       div
        p(class="card-price-p") от 40 000 ₽
        a(href='#', class="card-location") Россия
       button(class="eddit_btn my_adds_btn")
+       a(href="new_adds2.html")
       button(class="up_btn my_adds_btn")
+     div(class="adv-block-popup")
+        div(class="adv-block")
+         div(class="adv-block1")
+          div(class="adv-block-h") 
+           p Поднять в топ
+          .row
+           div(class="adv-block-l")
+            span На 3 часа
+           div(class="adv-block-r")
+            span 500.-
+          .row
+           div(class="adv-block-l")
+            span На 12 часов
+           div(class="adv-block-r")
+            span 1 500.-
+          .row
+           div(class="adv-block-l")
+            span На 24 часов
+           div(class="adv-block-r")
+            span 3 000.-
+          .row
+           div(class="adv-block-l")
+            span На 72 часов
+           div(class="adv-block-r")
+            span 5 000.-
+          div(class="adv-block-footer") 
+           .row
+            div(class="adv-block-footer-l")
+             span  Выделить заголовок
+            div(class="adv-block-footer-r")
+             span 500.-

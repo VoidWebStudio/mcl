@@ -24,7 +24,7 @@
 
 .message-tab-item {
     padding: 20px 18px 0px 20px;
-}
+} 
 
 .message-tab-user {
     font-family: PT Root UI;
@@ -257,17 +257,17 @@ span.message-user {
 }
 .scrool-bl::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;}
 .scrool-bl::-webkit-scrollbar-button {  display:none; }
-.scrool-bl::-webkit-scrollbar-track {  background-color: #005ED9;position: absolute;}
-.scrool-bl::-webkit-scrollbar-track-piece { background-color: #ffffff;position: absolute;}
-.scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: #005ED9; border-radius: 3px;position: absolute;}
+.scrool-bl::-webkit-scrollbar-track {  background-color: transparent;position: absolute;}
+.scrool-bl::-webkit-scrollbar-track-piece { background-color: transparent;position: absolute;}
+.scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;position: absolute;}
 .scrool-bl::-webkit-scrollbar-corner { background-color: #999;position: absolute;}
 .scrool-bl::-webkit-resizer { background-color: #666;position: absolute;}
 
 .message-tab-block::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;right: 0;}
 .message-tab-block::-webkit-scrollbar-button {  display:none; }
-.message-tab-block::-webkit-scrollbar-track {  background-color: #005ED9;}
-.message-tab-block::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-.message-tab-block::-webkit-scrollbar-thumb { height: 50px; background-color: #005ED9; border-radius: 3px;}
+.message-tab-block::-webkit-scrollbar-track {  background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-track-piece { background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;}
 .message-tab-block::-webkit-scrollbar-corner { background-color: #999;}
 .message-tab-block::-webkit-resizer { background-color: #666;}
 .message-tab-block {
@@ -286,4 +286,232 @@ span.message-user {
 .message-tab-item.act>div {
     padding-bottom: 20px !important;
     border: none !important;
+}
+.content-block.col-md-9.message-p {
+    padding-left: 7px !important;
+}
+
+.leftnav.col-md-3.message-page {
+    padding-right: 63px !important;
+}
+@media(max-width:1301px){
+.message_page {
+   max-width: 960px;
+   width: auto !important;
+}
+.send-textarea textarea {
+    max-width: 400px;
+    width: auto !important;
+}
+
+.message-tab-block {
+    width: auto !important;
+}
+
+.message-body {
+    width: 65% !important;
+}
+
+.message-tab {
+    width: 35%;
+}
+
+.message-tab-job span {
+    top: 0 !important;
+    right: -15px !important;
+}
+
+
+.content-block.col-md-9.message-p {
+    padding-left: 0 !important;
+}
+}
+@media(max-width:992px){  
+.leftnav.col-md-3.message-page {
+    padding-right: 5px !important;
+}
+}
+@media (min-width: 769px){
+.message2 {
+    display: none;
+}
+
+.message_page_mob {
+    display: none;
+}
+}
+@media (max-width: 768px){
+.message-tab-block {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 5px 0 0 0;
+    background: #FFFFFF;
+}
+.message_page {
+    display: none;
+}
+
+.message_page_mob {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0px 0 0 0;
+    box-shadow: inset -1px 0px 0px #D9D9DE;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.message-tab {
+    width: 100% !important;
+}
+
+a.message-tab-item-mob {
+    display: block;
+    text-decoration: none !important;
+    padding-left: 15px;
+    padding-right: 12px;
+    padding-top: 20px;
+}
+a.message-tab-item-mob:first-child {
+    padding-top: 0 !important;
+    padding-top: 19px;
+}
+a.message-tab-item-mob>div {
+    border-bottom: 1px solid #DDDDE1;
+    padding-bottom: 19px;
+}
+
+
+.message-tab-job span {
+    top: 10px !important;
+    right: 0 !important;
+}
+
+
+.message-tab-block::-webkit-scrollbar-track {  background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-track-piece { background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;}
+a.message-tab-item-mob:hover {
+    background: #005ED9;
+}
+
+a.message-tab-item-mob:hover div {
+    border-color: transparent;
+    color: white;
+}
+
+a.message-tab-item-mob:hover p{
+    color:white;
+}
+a.message-tab-item-mob:hover p{
+    color: white;
+}
+.message-text .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.message2 .message-user-img {
+    width: 30px;
+    height: 30px;
+}
+
+.message2  .message-item-popup {
+    padding: 0 15px 0 15px;
+    margin: 0 -15px 0 -15px;
+    position: relative;
+    background: white !important;
+}
+
+.message2 .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.message2 .send-textarea textarea {
+    width: auto;
+    max-width: 250px !important;
+    padding-right: 0;
+}
+
+.message2 .send-btn button {
+    width: auto !important;
+    max-width: 100px !important;
+    padding-left: 20px;
+}
+.message2 .message-user-text {
+    max-width: 83%;
+}
+
+.message2 .message-user-text-item {
+    padding-right: 20px;
+}
+.popup-message-head {
+    padding: 10px 40px 5px 15px;
+    background: white;
+    border-bottom: 1px solid #D4D4D9;
+    margin-left: -15px;
+    margin-right: -15px;
+    min-height: 50px;
+}
+
+.popup-message-head span {
+    font-family: PT Root UI;
+    font-size: 15px;
+    line-height: 16px;
+/* or 107% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    display: block;
+}
+
+.prev-mesage-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: none !important;
+    background-color: white;
+    box-shadow: inset 0px -1px 0px #D4D4D9;
+    background-image: url(../images/prev-pop.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center center !important;
+}
+
+.message2 .scrool-bl::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;}
+.message2 .scrool-bl::-webkit-scrollbar-button {  display:none; }
+.message2 .scrool-bl::-webkit-scrollbar-track {  background-color: transparent;position: absolute;}
+.message2 .scrool-bl::-webkit-scrollbar-track-piece { background-color: transparent;position: absolute;}
+.message2 .scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;position: absolute;}
+.message2 .scrool-bl::-webkit-scrollbar-corner { background-color: #999;position: absolute;}
+.message2 .scrool-bl::-webkit-resizer { background-color: #666;position: absolute;}
+
+.message2 {
+    position: relative;
+}
+
+.message-user-img-h img {
+    width: 100%;
+}
+
+.message-user-img-h {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+.popup-message-head p {
+    font-family: PT Root UI;
+    font-size: 16px;
+    line-height: 15px;
+/* identical to box height, or 94% */
+    color: #333333;
+    font-weight: bold;
+    margin: 7px 0 0px 80px;
+}
+
+.message2 {
+    max-width: 375px;
+    margin: 0 auto;
+}
 }

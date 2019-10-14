@@ -483,7 +483,7 @@ button.card-star-btn.act {
     position: relative;
     top: -5px;
 }
-.card-info-p.redtxt.withup:before {
+.card-info-p.withup:before {
     content:"";
     background: url(../images/up.png) no-repeat;
     display: inline-block;
@@ -557,11 +557,13 @@ span.card-user-acept {
 
 .card-price.mob {
     padding-right: 0;
-    width: 42%;
+    width: 35%;
     margin: 0 0 0 auto;
     padding: 0px 0 0 0;
 }
-
+.card-foot {
+    width: 65%;
+}
 .card-location {
     padding: 0 0 0 12px;
     background-position: left center !important;
@@ -581,5 +583,19 @@ a.card-info-img {
 
 .card-location.withoutprice {
     margin-top: 0 !important;
+}
+}
+@media(max-width:350px){
+span.card-user-acept {
+    font-size: 8px;
+}
+
+p.card-price-p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+a.card-location {
+    font-size: 8px;
 }
 }

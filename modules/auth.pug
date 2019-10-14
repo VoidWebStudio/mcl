@@ -27,8 +27,8 @@ div(class="auth")
       span Запомнить меня
      button(class="auth-item-button", disabled="disabled", id='dis-btn1')
       span Войти
-   div(class="auth-item")
-    form
+   div(class="auth-item" id="registration-form")
+    form()
      div
       label(class="auth-label")
        p Email
@@ -46,7 +46,7 @@ div(class="auth")
       label(class="auth-label")
        p Дата рождения
        div(class="auth-delete")
-        input(type='text', class='auth-input reg-inp2', id='date-input', value="__.__.____")
+        input(type='text', class='auth-input reg-inp2', id='date-input')
         span
      label(class="auth-check")
       input(type="checkbox")

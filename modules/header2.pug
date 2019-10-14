@@ -1,13 +1,102 @@
+include message_popup
+
+
+div(class="header-mob-search")
+ div(class="search-block col-lg-5 col-md-4")
+      div(class="search-item")
+       div(class="search-input")
+        input(typy="text", id='input_search')
+        button
+       button(class="search-btn")
+        span Найти
+ 
+div(class="header-mob")
+ div(class="header-mob-block")
+  .center
+   .row
+    div(class="mob-menu")
+     div(class="mob-menu-btn")
+      div(class="mob-btn")
+       span
+       span
+     div(class="mob-menu-block")
+      div(class="mob-loc-mob")
+       a(href="city1.html", class="location-link-mob")
+         span Россия, Санкт-Петербург
+      div(class="mob-add")
+       button
+         div 
+          a(href="new_adds.html") Добавить объявление
+      div(class="mob-menu-itm")
+         a(href="account.html") Общие данные
+         a(href="message.html") Сообщения
+         a(href="my_adds2.html") Мои объявления
+         a(href="favorites.html") Избранные
+         a(href="scores.html") Мои баллы
+         a(href="#") Выход
+      div(class="header-nav-mob")
+       div(class="leftnav-head")
+        div(class="leftnav-head-btn")
+         ul
+          li
+           a(href='#', class='act') Рубрики
+          li
+           a(href='#') #Пользователей
+         button 
+          span Сбросить
+       div(class="leftnav-body")
+        div(class="leftnav-item")
+         div(class="leftnav-btn")
+          button Работа, услуги
+         div(class="leftnav-item-body")
+          a(href='#') предлагаю
+          a(href='#') бухгалтер
+          a(href='#') дизайнер
+          a(href='#', class='act') транспорт
+          a(href='#', class='act') повар
+          a(href='#') разнорабочие
+          a(href='#') здравохранение
+          a(href='#', class='act') ищуРаботу
+          button
+           span Еще...
+        div(class="leftnav-item")
+         div(class="leftnav-btn")
+          button Знакомства, общение, поддержка
+         div(class="leftnav-item-body")
+          a(href='#') другНаЧас
+          a(href='#') знакомства
+          a(href='#') втречи
+          a(href='#') выпитьВместе
+          a(href='#') ищуПарня
+          a(href='#') аа
+          a(href='#') ищуЛюбовника
+          a(href='#') помощь
+          button
+           span Еще...
+        
+    div(class="mob-logo")
+     a(href="index.html", id="mob-logo")
+    div(class="mob-account-text")
+      p Баллов
+      a(href='#') 1 900
+    div(class="mob-message")
+     button
+      a(href='message.html')
+    div(class="mob-search")
+     button
+
+
 header
  div(id="head-fix")
   .logo-blocks
    .center
     .row
-     div(class="logo-bl-small")
+     div(class="logo-bl-small") 
       a(href="index.html", id="logo-small") 
      div(class="fixed-btn")
       button
-       div Добавить объявление
+       div
+        a(href="new_adds.html") Добавить объявление
      div(class="logo-bl")
       a(href="index.html", id="logo")
      div(class="location-block col-lg-2 col-md-2")
@@ -20,9 +109,15 @@ header
          button(class="choose-region-btn-l")
           div Верно
          button(class="choose-region-btn-r")
-          div Другой
-     div(class="search-block-fixed")
-      button
+          a(href='city1.html') Другой
+     div(class="search-block-fixed col-lg-3 col-md-3")
+      button(class="fix-search")
+      div(class="search-item fix-mm")
+       div(class="search-input")
+        input(typy="text", id='input_search2')
+        button
+       button(class="search-btn")
+        span Найти
      div(class="search-block col-lg-5 col-md-4")
       div(class="search-item")
        div(class="search-input")
@@ -33,9 +128,37 @@ header
      div(class="reg-block")
       .row
        button(class="reg-block-btn-l")
-        div Регистрация
+        div 
+         a(href="auth.html") Регистрация
        button(class="reg-block-btn-r")
-       
+        a(href="auth.html")
+  div(class="city-block1")
+   div(class="city-block")
+       a(href="index.html", class='close-page')
+       p(class="city-block-head") Укажите свой регион
+       div(class="city-input")
+        .city-input__overlay
+         input(type='text')
+         .inputAutocomlete
+          .inputAutocomlete__item
+           b affa
+           | faf1
+          .inputAutocomlete__item affafaf2
+          .inputAutocomlete__item affafaf3
+          .inputAutocomlete__item affafaf4
+        button Выбрать
+       div(class="city-example")
+        p Например:
+        span Москва
+        span Санкт-Петербург
+  div(class="header-mob-search")
+   div(class="search-block col-lg-5 col-md-4")
+        div(class="search-item")
+         div(class="search-input")
+          input(typy="text", id='input_search')
+          button
+         button(class="search-btn")
+          span Найти  
        
   
 

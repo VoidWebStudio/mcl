@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap-tagsinput.css"/>
     <link rel="stylesheet" href="css/jquery.hashtags.min.css"/>
     <script src="js/bootstrap-tagsinput.js"></script>
+    <link rel="stylesheet" href="css/datepicker.min.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <body>
       <div class="popup">
@@ -143,7 +144,7 @@
                       <div>Добавить объявление</div>
                     </button>
                   </div>
-                  <div class="mob-menu-itm"><a href="account.html">Общие данные</a><a href="image-page.html">Сообщения</a><a href="slider-page.html">Мои объявления</a><a href="index_without_reg.html">Избранные</a><a href="new_adds.html">Мои баллы</a><a href="view_obj.html">Выход</a></div>
+                  <div class="mob-menu-itm"><a href="account.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds2.html">Мои объявления</a><a href="favorites.html">Избранные</a><a href="scores.html">Мои баллы</a><a href="#">Выход</a></div>
                   <div class="header-nav-mob">
                     <div class="leftnav-head">
                       <div class="leftnav-head-btn">
@@ -180,7 +181,7 @@
                 <p>Баллов</p><a href="#">1 900</a>
               </div>
               <div class="mob-message">
-                <button></button>
+                <button><a href="message.html"></a></button>
               </div>
               <div class="mob-search">
                 <button></button>
@@ -197,24 +198,29 @@
                 <div class="logo-bl-small"><a href="index.html" id="logo-small"></a></div>
                 <div class="fixed-btn">
                   <button>
-                    <div>Добавить объявление</div>
+                    <div> <a href="new_adds.html">Добавить объявление</a></div>
                   </button>
                 </div>
                 <div class="logo-bl"><a href="index.html" id="logo"></a></div>
-                <div class="location-block col-lg-2 col-md-2"><a class="location-link" href="#"><span>Россия, Санкт-Петербург</span>
+                <div class="location-block col-lg-2 col-md-2"><a class="location-link" href="city1.html"><span>Россия, Санкт-Петербург</span>
                     <div class="choose-region">
                       <p>Ваш регион</p><span>Россия, Санкт-Петербург</span>
                       <div class="choose-region-btn">
                         <button class="choose-region-btn-l">
                           <div>Верно</div>
                         </button>
-                        <button class="choose-region-btn-r">
-                          <div>Другой</div>
-                        </button>
+                        <button class="choose-region-btn-r"><a href="city1.html"> Другой</a></button>
                       </div>
                     </div></a></div>
-                <div class="search-block-fixed">
-                  <button></button>
+                <div class="search-block-fixed col-lg-3 col-md-3">
+                  <button class="fix-search"></button>
+                  <div class="search-item fix-mm">
+                    <div class="search-input">
+                      <input typy="text" id="input_search2"/>
+                      <button></button>
+                    </div>
+                    <button class="search-btn"><span>Найти</span></button>
+                  </div>
                 </div>
                 <div class="search-block col-lg-5 col-md-4">
                   <div class="search-item">
@@ -226,20 +232,51 @@
                   </div>
                 </div>
                 <div class="message-block col-lg-1 col-md-2">
-                  <button class="message-btn"></button>
-                  <button class="star-btn"></button>
+                  <button class="message-btn"><a href="message.html"></a></button>
+                  <button class="star-btn"><a href="favorites.html"></a></button>
                 </div>
                 <div class="account-block">
                   <div class="row">
                     <div class="account-text">
-                      <p>Баллов</p><a href="#">1 900</a>
+                      <p>Баллов</p><a href="scores.html">1 900</a>
                     </div>
                     <div class="account-btn">
                       <button></button>
-                      <div class="menu"><a href="account.html">Общие данные</a><a href="image-page.html">Сообщения</a><a href="slider-page.html">Мои объявления</a><a href="index_without_reg.html">Избранные</a><a href="new_adds.html">Мои баллы</a><a href="view_obj.html">Выход</a></div>
+                      <div class="menu"><a href="account.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds2.html">Мои объявления</a><a href="favorites.html">Избранные</a><a href="scores.html">Мои баллы</a><a href="#">Выход</a></div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="city-block1">
+            <div class="city-block"><a class="close-page" href="index.html"></a>
+              <p class="city-block-head">Укажите свой регион</p>
+              <div class="city-input">
+                <div class="city-input__overlay">
+                  <input type="text"/>
+                  <div class="inputAutocomlete">
+                    <div class="inputAutocomlete__item"><b>affa</b>faf1</div>
+                    <div class="inputAutocomlete__item">affafaf2</div>
+                    <div class="inputAutocomlete__item">affafaf3</div>
+                    <div class="inputAutocomlete__item">affafaf4</div>
+                  </div>
+                </div>
+                <button>Выбрать</button>
+              </div>
+              <div class="city-example">
+                <p>Например:</p><span>Москва</span><span>Санкт-Петербург</span>
+              </div>
+            </div>
+          </div>
+          <div class="header-mob-search">
+            <div class="search-block col-lg-5 col-md-4">
+              <div class="search-item">
+                <div class="search-input">
+                  <input typy="text" id="input_search"/>
+                  <button></button>
+                </div>
+                <button class="search-btn"><span>Найти  </span></button>
               </div>
             </div>
           </div>
@@ -250,7 +287,7 @@
           <div class="row">
             <div class="leftnav col-lg-4 col-md-4">
               <div class="leftnav-block">
-                <div class="leftnav-head"><a class="leftnav-add" href="#"><span>Добавить объявление</span></a>
+                <div class="leftnav-head"><a class="leftnav-add" href="new_adds.html"><span>Добавить объявление</span></a>
                   <div class="leftnav-head-btn">
                     <ul>
                       <li><a class="act" href="#">Рубрики</a></li>
@@ -308,7 +345,7 @@
               <div class="fitr">
                 <div class="fitr-img desk mob"></div>
                 <div class="fitr-block-mob">
-                  <div class="fitr-block-mob-btn"><a class="leftnav-add" href="#"><span>Добавить объявление</span></a>
+                  <div class="fitr-block-mob-btn"><a class="leftnav-add" href="new_adds.html"><span>Добавить объявление</span></a>
                     <button class="fitr-block-mob-open"></button>
                   </div>
                   <div class="fitr-block"><span class="fitr-span">Фильтр</span>
@@ -325,7 +362,7 @@
                 </div>
                 <div class="fitr-img desk"></div>
               </div>
-              <div class="card1">
+              <div class="card1"> 
                 <div class="card-link"><a href="#"><span>Показать 4 новых объявления</span></a></div>
                 <div class="card-block">
                   <div class="card-item">
@@ -335,7 +372,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p redtxt withup"><a href="#">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
+                        <p class="card-info-p redtxt withup"><a href="view_obj.html">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -359,7 +396,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p redtxt withup"><a href="#">Повар из Грузии принимает заказы</a></p>
+                        <p class="card-info-p redtxt withup"><a href="view_obj.html">Повар из Грузии принимает заказы</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -379,7 +416,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p withup"><a href="#">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
+                        <p class="card-info-p withup"><a href="view_obj.html">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -403,7 +440,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Ищу работу официантом в приличном ресторане</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Ищу работу официантом в приличном ресторане</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -427,7 +464,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -451,7 +488,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Повар из Грузии принимает заказы</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Повар из Грузии принимает заказы</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -471,7 +508,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -495,7 +532,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Ищу работу официантом в приличном ресторане</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Ищу работу официантом в приличном ресторане</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -519,7 +556,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Ищу работу официантом в приличном ресторане</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Ищу работу официантом в приличном ресторане</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -543,7 +580,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Предлагаем увлекательную работу для водителей и грузчиков</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -567,7 +604,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Повар из Грузии принимает заказы</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Повар из Грузии принимает заказы</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -587,7 +624,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">ИЩУ РАБОТУ В РЕСТОРАНЕ</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -611,7 +648,7 @@
                         <div class="card-time desk">18:26</div>
                       </div>
                       <div class="card-info">
-                        <p class="card-info-p"><a href="#">Ищу работу официантом в приличном ресторане</a></p>
+                        <p class="card-info-p"><a href="view_obj.html">Ищу работу официантом в приличном ресторане</a></p>
                         <div class="card-info-footer">
                           <div class="row">
                             <div class="card-foot">
@@ -640,13 +677,15 @@
           <div class="center">
             <div class="row">
               <div class="col-lg-6 col-md-6 copyrith"><span>© 2019 — Modern Craiglist</span></div>
-              <div class="col-lg-6 col-md-6 footer-links"><a href="reg.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="about.html"><span>Политика обработки персональных данных</span></a></div>
+              <div class="col-lg-6 col-md-6 footer-links"><a href="about.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="about.html"><span>Политика обработки персональных данных</span></a></div>
             </div>
           </div>
         </div>
       </footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+      <script src="js/datepicker.min.js"></script>
       <script src="js/main.js"></script>
+      <script src="js/input.js"></script>
     </body>
   </head>
 </html>

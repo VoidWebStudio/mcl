@@ -1,18 +1,24 @@
-div(class="content-block col-lg-8")
+div(class="content-block col-lg-8 col-md-8 col-12")
  div(class="fitr")
-  div(class="fitr-block")
-   span(class="fitr-span") Фильтр
-   label(class="fitr-label")
-    input(type="checkbox")
-    span По местоположению
-   label(class="fitr-label")
-    input(type="checkbox")
-    span С фото
-   label(class="fitr-label ttt")
-    input(type="checkbox")
-    span Пользователь с верификацией
+   div(class="fitr-img desk mob")
+   div(class="fitr-block-mob")
+    div(class="fitr-block-mob-btn")
+     a(href="new_adds.html" class="leftnav-add")
+      span Добавить объявление
+     button(class="fitr-block-mob-open")
+    div(class="fitr-block")
+     span(class="fitr-span") Фильтр
+     label(class="fitr-label")
+      input(type="checkbox")
+      span По местоположению
+     label(class="fitr-label")
+      input(type="checkbox")
+      span С фото
+     label(class="fitr-label ttt")
+      input(type="checkbox")
+      span Пользователь с верификацией
 
-  div(class="fitr-img")
+   div(class="fitr-img desk")
  div(class="card1")
   div(class="card-link")
    a(href='#')
@@ -21,160 +27,262 @@ div(class="content-block col-lg-8")
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p redtxt")
-       a(href='#') Предлагаем увлекательную работу для водителей и грузчиков
+      p(class="card-info-p redtxt withup")
+       a(href='view_obj.html') Предлагаем увлекательную работу для водителей и грузчиков
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 4 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 4 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия, МОсква
+         p(class="card-price-p") от 30 000 ₽
+     div(class="card-price desk")
       p(class="card-price-p") от 30 000 ₽
       a(href='#', class="card-location") Россия, МОсква
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p redtxt")
-       a(href='#') Повар из Грузии принимает заказы
+      p(class="card-info-p redtxt withup")
+       a(href='view_obj.html') Повар из Грузии принимает заказы
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 5 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
-      span(class="card-location withoutprice") Россия, Казань
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 5 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href="#", class="card-location withoutprice") Россия, Казань
+     div(class="card-price desk")
+      a(href="#", class="card-location withoutprice") Россия, Казань
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
+     div(class="card-info")
+      p(class="card-info-p withup")
+       a(href='view_obj.html') ИЩУ РАБОТУ В РЕСТОРАНЕ
+      div(class="card-info-footer")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽      
+     div(class="card-price desk")
+      p(class="card-price-p") от 20 000 ₽
+      a(href='#', class="card-location") Россия
+   div(class="card-item")
+    .row
+     div(class="card-star")
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
       p(class="card-info-p")
-       a(href='#') ИЩУ РАБОТУ В РЕСТОРАНЕ
+       a(href='view_obj.html') Ищу работу официантом в приличном ресторане
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
-      p(class="card-price-p") от 20 000 ₽
-      a(href='#', class="card-location") Россия
-   div(class="card-item")
-    .row
-     div(class="card-star")
-      span 18:26
-     div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Ищу работу официантом в приличном ресторане
-      div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+      
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
    div(class="card-item")
     .row
      div(class="card-star act")
-      span 18:26
+      button(class="card-star-btn act")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Предлагаем увлекательную работу для водителей и грузчиков
+      p(class="card-info-p")
+       a(href='view_obj.html') Предлагаем увлекательную работу для водителей и грузчиков
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 2 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 2 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")     
+         a(href='#', class="card-location") Россия, МОсква
+         p(class="card-price-p") от 30 000 ₽
+     div(class="card-price desk")
       p(class="card-price-p") от 30 000 ₽
       a(href='#', class="card-location") Россия, МОсква
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Повар из Грузии принимает заказы
+      p(class="card-info-p")
+       a(href='view_obj.html') Повар из Грузии принимает заказы
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 5 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
-      span(class="card-location withoutprice") Россия, Казань
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 5 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href="#", class="card-location withoutprice") Россия, Казань
+     div(class="card-price desk")
+      a(href="#", class="card-location withoutprice") Россия, Казань
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') ИЩУ РАБОТУ В РЕСТОРАНЕ
+      p(class="card-info-p")
+       a(href='view_obj.html') ИЩУ РАБОТУ В РЕСТОРАНЕ
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+    
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Ищу работу официантом в приличном ресторане
+      p(class="card-info-p")
+       a(href='view_obj.html') Ищу работу официантом в приличном ресторане
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+      
+
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
    div(class="card-item")
     .row
-     div(class="card-star act")
-      span 18:26
+     div(class="card-star")
+      button(class="card-star-btn act")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Ищу работу официантом в приличном ресторане
+      p(class="card-info-p")
+       a(href='view_obj.html') Ищу работу официантом в приличном ресторане
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+      
+
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
    div(class="card-item")
     .row
-     div(class="card-star act")
-      span 18:26
+     div(class="card-star")
+      button(class="card-star-btn act")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Предлагаем увлекательную работу для водителей и грузчиков
+      p(class="card-info-p")
+       a(href='view_obj.html') Предлагаем увлекательную работу для водителей и грузчиков
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 4 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 4 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия, МОсква
+         p(class="card-price-p") от 30 000 ₽
+     
+
+
+     div(class="card-price desk")
       p(class="card-price-p") от 30 000 ₽
       a(href='#', class="card-location") Россия, МОсква
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Повар из Грузии принимает заказы
+      p(class="card-info-p")
+       a(href='view_obj.html') Повар из Грузии принимает заказы
       div(class="card-info-footer")
-       a(href="#", class="card-info-img") 5 фото
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
-      span(class="card-location withoutprice") Россия, Казань
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         a(href="#", class="card-info-img") 5 фото
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href="#", class="card-location withoutprice") Россия, Казань
+
+     div(class="card-price desk")
+      a(href="#", class="card-location withoutprice") Россия, Казань
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') ИЩУ РАБОТУ В РЕСТОРАНЕ
+      p(class="card-info-p")
+       a(href='view_obj.html') ИЩУ РАБОТУ В РЕСТОРАНЕ
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+      
+
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
    div(class="card-item")
     .row
      div(class="card-star")
-      span 18:26
+      button(class="card-star-btn")
+      div(class="card-time desk") 18:26
      div(class="card-info")
-      p(class="card-info-p withoutup")
-       a(href='#') Ищу работу официантом в приличном ресторане
+      p(class="card-info-p")
+       a(href='view_obj.html') Ищу работу официантом в приличном ресторане
       div(class="card-info-footer")
-       span(class="card-user-acept") Пользователь верифицирован
-     div(class="card-price")
+       .row
+        div(class="card-foot")
+         div(class="card-time mob") 18:26
+         span(class="card-user-acept") Пользователь верифицирован
+        div(class="card-price mob")
+         a(href='#', class="card-location") Россия
+         p(class="card-price-p") от 20 000 ₽
+      
+
+     div(class="card-price desk")
       p(class="card-price-p") от 20 000 ₽
       a(href='#', class="card-location") Россия
 

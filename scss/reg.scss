@@ -69,3 +69,16 @@ span.auth-reg-span {
 .auth.reg-p {
     padding: 115px 0 107px 0 !important;
 }
+@media(max-width:420px){
+  
+.footer-auth {
+    display: none;
+}
+
+.auth {
+    padding-bottom: 0 !important;
+}
+.auth.reg-p {
+    padding-bottom: 0 !important;
+}
+}
