@@ -1,4 +1,6 @@
 include message_popup
+
+
 div(class="header-mob-search")
  div(class="search-block col-lg-5 col-md-4")
       div(class="search-item")
@@ -19,18 +21,19 @@ div(class="header-mob")
        span
      div(class="mob-menu-block")
       div(class="mob-loc-mob")
-       a(href="#", class="location-link-mob")
+       a(href="city1.html", class="location-link-mob")
          span Россия, Санкт-Петербург
       div(class="mob-add")
        button
-         div Добавить объявление
+         div 
+          a(href="new_adds.html") Добавить объявление
       div(class="mob-menu-itm")
-        a(href="city1.html") Общие данные
-        a(href="message.html") Сообщения
-        a(href="my_adds.html") Мои объявления
-        a(href="favorites.html") Избранные
-        a(href="scores.html") Мои баллы
-        a(href="auth.html") Выход
+         a(href="account.html") Общие данные
+         a(href="message.html") Сообщения
+         a(href="my_adds2.html") Мои объявления
+         a(href="favorites.html") Избранные
+         a(href="scores.html") Мои баллы
+         a(href="#") Выход
       div(class="header-nav-mob")
        div(class="leftnav-head")
         div(class="leftnav-head-btn")
@@ -78,6 +81,7 @@ div(class="header-mob")
       a(href='#') 1 900
     div(class="mob-message")
      button
+      a(href='message.html')
     div(class="mob-search")
      button
 
@@ -124,9 +128,37 @@ header
      div(class="reg-block")
       .row
        button(class="reg-block-btn-l")
-        div Регистрация
+        div 
+         a(href="auth.html") Регистрация
        button(class="reg-block-btn-r")
-       
+        a(href="auth.html")
+  div(class="city-block1")
+   div(class="city-block")
+       a(href="index.html", class='close-page')
+       p(class="city-block-head") Укажите свой регион
+       div(class="city-input")
+        .city-input__overlay
+         input(type='text')
+         .inputAutocomlete
+          .inputAutocomlete__item
+           b affa
+           | faf1
+          .inputAutocomlete__item affafaf2
+          .inputAutocomlete__item affafaf3
+          .inputAutocomlete__item affafaf4
+        button Выбрать
+       div(class="city-example")
+        p Например:
+        span Москва
+        span Санкт-Петербург
+  div(class="header-mob-search")
+   div(class="search-block col-lg-5 col-md-4")
+        div(class="search-item")
+         div(class="search-input")
+          input(typy="text", id='input_search')
+          button
+         button(class="search-btn")
+          span Найти  
        
   
 

@@ -3,7 +3,7 @@
     margin: 31px auto 0 auto;
     padding-right: 4px;
     padding-left: 1px;
-}
+} 
 
 .new-adds-form-input p {
     font-weight: bold;
@@ -161,7 +161,7 @@ input.new_adds_input:-moz-placeholder { /* Firefox 18- */
   margin: 0 !important;
   }
 
-.new-adds-check-head div:after {
+.new-adds-check-head label>div:after {
   content: '';
   background: #ffffff;
   position: absolute;
@@ -174,7 +174,7 @@ input.new_adds_input:-moz-placeholder { /* Firefox 18- */
   border: solid 1px #D4D4D9;
   }
 
-.new-adds-check-head input {
+.new-adds-check-head label>input {
   cursor: pointer;
   position: absolute;
   z-index: 1;
@@ -198,7 +198,7 @@ input.new_adds_input:-moz-placeholder { /* Firefox 18- */
   position: absolute;
   }
 
-.new-adds-check-head div {
+.new-adds-check-head label>div {
   top: 4px;
   display: block;
   position: relative;
@@ -555,5 +555,53 @@ input.price-input.new_adds_input.reg-inp {
 
 .new-adds-check-button button:last-child {
     margin-bottom: 0 !important;
+}
+}
+.date-input-bl {
+    display: inline-block;
+    margin-left: 39px;
+    margin-top: -18px;
+    position: relative;
+    top: 2px;
+}
+
+.date-input-bl input {
+    width: 300px;
+    position: initial !important;
+    opacity: 1 !important;
+    background: #FFFFFF;
+/* Line */
+    padding: 0 10px 0 13px;
+    border: 1px solid #D4D4D9;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 50px;
+    font-family: PT Root UI;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.01em;
+
+/* Text default */
+    color: #333333;
+}
+
+.date-input-bl input:focus {
+    border: 1px solid #005ED9;
+    outline: none !important;
+}
+@media(max-width:768px){
+
+
+.date-input-bl {
+    display: block !important;
+    margin-left: -30px;
+    max-width: 345px;
+    top: 0;
+    margin-top: 30px !important;
+}
+
+.date-input-bl input {
+    width: 100%;
 }
 }

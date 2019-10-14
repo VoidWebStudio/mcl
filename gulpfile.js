@@ -30,6 +30,7 @@ gulp.task('livereload', function (){
 
 gulp.task('watch', function () {
   gulp.watch('./scss/**/*.scss', ['sass' , 'livereload']);
+  gulp.watch('./modules/*.pug', ['pug' , 'livereload']);
   gulp.watch('', ['livereload']);
 });
 gulp.task('pug', function(){
@@ -38,6 +39,6 @@ gulp.task('pug', function(){
     pretty:true
   }))
   .pipe(gulp.dest(''));
-})
+});
 
 gulp.task('default', ['connect', 'pug', 'watch', 'sass']);

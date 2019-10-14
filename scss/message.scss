@@ -257,17 +257,17 @@ span.message-user {
 }
 .scrool-bl::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;}
 .scrool-bl::-webkit-scrollbar-button {  display:none; }
-.scrool-bl::-webkit-scrollbar-track {  background-color: #005ED9;position: absolute;}
-.scrool-bl::-webkit-scrollbar-track-piece { background-color: #ffffff;position: absolute;}
-.scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: #005ED9; border-radius: 3px;position: absolute;}
+.scrool-bl::-webkit-scrollbar-track {  background-color: transparent;position: absolute;}
+.scrool-bl::-webkit-scrollbar-track-piece { background-color: transparent;position: absolute;}
+.scrool-bl::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;position: absolute;}
 .scrool-bl::-webkit-scrollbar-corner { background-color: #999;position: absolute;}
 .scrool-bl::-webkit-resizer { background-color: #666;position: absolute;}
 
 .message-tab-block::-webkit-scrollbar { width: 3px; height: 3px;position: absolute;right: 0;}
 .message-tab-block::-webkit-scrollbar-button {  display:none; }
-.message-tab-block::-webkit-scrollbar-track {  background-color: #005ED9;}
-.message-tab-block::-webkit-scrollbar-track-piece { background-color: #ffffff;}
-.message-tab-block::-webkit-scrollbar-thumb { height: 50px; background-color: #005ED9; border-radius: 3px;}
+.message-tab-block::-webkit-scrollbar-track {  background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-track-piece { background-color: transparent;}
+.message-tab-block::-webkit-scrollbar-thumb { height: 50px; background-color: transparent; border-radius: 3px;}
 .message-tab-block::-webkit-scrollbar-corner { background-color: #999;}
 .message-tab-block::-webkit-resizer { background-color: #666;}
 .message-tab-block {

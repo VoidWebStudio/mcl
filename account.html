@@ -108,17 +108,6 @@
           </div>
         </div>
       </div>
-      <div class="header-mob-search">
-        <div class="search-block col-lg-5 col-md-4">
-          <div class="search-item">
-            <div class="search-input">
-              <input typy="text" id="input_search"/>
-              <button></button>
-            </div>
-            <button class="search-btn"><span>Найти</span></button>
-          </div>
-        </div>
-      </div>
       <div class="header-mob">
         <div class="header-mob-block">
           <div class="center">
@@ -134,7 +123,7 @@
                       <div>Добавить объявление</div>
                     </button>
                   </div>
-                  <div class="mob-menu-itm"><a href="city1.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds.html">Мои объявления</a><a href="favorites.html">Избранные</a><a href="scores.html">Мои баллы</a><a href="auth.html">Выход</a></div>
+                  <div class="mob-menu-itm"><a href="account.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds2.html">Мои объявления</a><a href="favorites.html">Избранные</a><a href="scores.html">Мои баллы</a><a href="#">Выход</a></div>
                   <div class="header-nav-mob">
                     <div class="leftnav-head">
                       <div class="leftnav-head-btn">
@@ -171,7 +160,7 @@
                 <p>Баллов</p><a href="#">1 900</a>
               </div>
               <div class="mob-message">
-                <button></button>
+                <button><a href="message.html"></a></button>
               </div>
               <div class="mob-search">
                 <button></button>
@@ -188,11 +177,11 @@
                 <div class="logo-bl-small"><a href="index.html" id="logo-small"></a></div>
                 <div class="fixed-btn">
                   <button>
-                    <div>Добавить объявление</div>
+                    <div> <a href="new_adds.html">Добавить объявление</a></div>
                   </button>
                 </div>
                 <div class="logo-bl"><a href="index.html" id="logo"></a></div>
-                <div class="location-block col-lg-2 col-md-2"><a class="location-link" href="#"><span>Россия, Санкт-Петербург</span>
+                <div class="location-block col-lg-2 col-md-2"><a class="location-link" href="city1.html"><span>Россия, Санкт-Петербург</span>
                     <div class="choose-region">
                       <p>Ваш регион</p><span>Россия, Санкт-Петербург</span>
                       <div class="choose-region-btn">
@@ -222,20 +211,51 @@
                   </div>
                 </div>
                 <div class="message-block col-lg-1 col-md-2">
-                  <button class="message-btn"></button>
-                  <button class="star-btn"></button>
+                  <button class="message-btn"><a href="message.html"></a></button>
+                  <button class="star-btn"><a href="favorites.html"></a></button>
                 </div>
                 <div class="account-block">
                   <div class="row">
                     <div class="account-text">
-                      <p>Баллов</p><a href="#">1 900</a>
+                      <p>Баллов</p><a href="scores.html">1 900</a>
                     </div>
                     <div class="account-btn">
                       <button></button>
-                      <div class="menu"><a href="account.html">Общие данные</a><a href="image-page.html">Сообщения</a><a href="slider-page.html">Мои объявления</a><a href="index_without_reg.html">Избранные</a><a href="new_adds.html">Мои баллы</a><a href="view_obj.html">Выход</a></div>
+                      <div class="menu"><a href="account.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds2.html">Мои объявления</a><a href="favorites.html">Избранные</a><a href="scores.html">Мои баллы</a><a href="#">Выход</a></div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="city-block1">
+            <div class="city-block"><a class="close-page" href="index.html"></a>
+              <p class="city-block-head">Укажите свой регион</p>
+              <div class="city-input">
+                <div class="city-input__overlay">
+                  <input type="text"/>
+                  <div class="inputAutocomlete">
+                    <div class="inputAutocomlete__item"><b>affa</b>faf1</div>
+                    <div class="inputAutocomlete__item">affafaf2</div>
+                    <div class="inputAutocomlete__item">affafaf3</div>
+                    <div class="inputAutocomlete__item">affafaf4</div>
+                  </div>
+                </div>
+                <button>Выбрать</button>
+              </div>
+              <div class="city-example">
+                <p>Например:</p><span>Москва</span><span>Санкт-Петербург</span>
+              </div>
+            </div>
+          </div>
+          <div class="header-mob-search">
+            <div class="search-block col-lg-5 col-md-4">
+              <div class="search-item">
+                <div class="search-input">
+                  <input typy="text" id="input_search"/>
+                  <button></button>
+                </div>
+                <button class="search-btn"><span>Найти  </span></button>
               </div>
             </div>
           </div>
@@ -324,7 +344,7 @@
                                 <div class="mobile-cod-block">
                                   <p class="mobile-cod-block-p">Код из СМС</p>
                                   <div class="mobile-cod-input">
-                                    <input type="text" placeholder="0000" maxlength="4"/>
+                                    <input type="text" placeholder="0000" maxlength="4" id="code-input"/>
                                     <button class="mobile-cod-btn">ок</button>
                                   </div>
                                   <div class="mobile-cod-btn2">
@@ -338,7 +358,7 @@
                                 <label class="account-label">
                                   <p>Дата рождения</p>
                                   <div class="auth-delete">
-                                    <input class="auth-input" type="text" id="date-input" value="__.__.____"/><span></span>
+                                    <input class="auth-input" type="text" id="date-input"/><span></span>
                                   </div>
                                 </label>
                               </div>
@@ -410,7 +430,7 @@
           <div class="center">
             <div class="row">
               <div class="col-lg-6 col-md-6 copyrith"><span>© 2019 — Modern Craiglist</span></div>
-              <div class="col-lg-6 col-md-6 footer-links"><a href="reg.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="about.html"><span>Политика обработки персональных данных</span></a></div>
+              <div class="col-lg-6 col-md-6 footer-links"><a href="about.html"><span>О сайте</span></a><a href="auth.html"><span>Пользовательское соглашение</span></a><a href="about.html"><span>Политика обработки персональных данных</span></a></div>
             </div>
           </div>
         </div>

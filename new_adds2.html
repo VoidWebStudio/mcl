@@ -261,57 +261,94 @@
           </div>
         </div>
       </header>
-      <section class="content score2">
+      <section class="content new_add_p">
         <div class="center">
-          <div class="row">
-            <div class="leftnav col-md-3 message-page">
-              <div class="leftnav-menu"><a href="account.html">Общие данные</a><a href="message.html">Сообщения</a><a href="my_adds.html">Мои объявления</a><a href="favorites.html">Избранные</a><a class="act" href="scores.html">Мои баллы</a><a href="#">Выход</a></div>
-            </div>
-            <div class="content-block my-addss-page col-md-9">
-              <div class="my_adds_block">
-                <div class="my_adds_heads scor-p">
-                  <ul>
-                    <li><a href="scores.html">Баланс</a></li>
-                    <li><a class="act" href="scores.html2">Начисления</a></li>
-                    <li><a href="my_adds.html">Расходы</a></li>
-                  </ul>
+          <div class="new-adds-block"><a class="close-page" href="index.html"></a>
+            <h3 class="account-block-head">Редактирование объявления</h3>
+            <div class="new-adds-form">
+              <div class="new-adds-form-input">
+                <p>Заголовок<i>*</i><span class="caunter"><span>0</span>100</span></p>
+                <input class="couter-input new_adds_input caunter-input reg-inp" type="text" placeholder="Введите заголовок объявления"/>
+              </div>
+              <div class="new-adds-form-input">
+                <p>Тест объявления<i>*</i><span class="caunter"><span>0</span>500</span></p>
+                <textarea class="couter-input textarea-tag reg-inp"></textarea>
+              </div>
+              <div class="new-adds-form-input">
+                <p>
+                   Теги<i>*</i></p>
+                <input class="new_adds_input reg-inp" type="text" id="add_tag" data-role="tagsinput"/>
+              </div>
+              <div class="new-adds-form-input">
+                <p>Местоположение<a class="search-loc" href="#">Определить автоматически</a></p>
+                <input class="new_adds_input reg-inp" type="text" value="Россия, Санкт-Петербург"/>
+              </div>
+              <div class="new-adds-form-input">
+                <p>Цена</p>
+                <input class="price-input new_adds_input reg-inp" type="text"/>
+              </div>
+              <div class="new-adds-form-input">
+                <p>Фотографии</p>
+                <div class="add_img">
+                  <div class="row">
+                    <div id="add_img_items">
+                      <div class="row"></div>
+                    </div>
+                    <div class="add_photo">
+                      <input class="add_ph_class" type="file" id="add_ph_inp"/>
+                      <div>Претащите фотографии сюда или кликните чтобы выбрать</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="scores-table">
-                  <div class="scores-table-item">
-                    <div class="row">
-                      <div class="scores-table-date col-md-1"><span>14 августа</span></div>
-                      <div class="scores-table-text col-md-9"><span>Баллы за пребывание на сайте</span></div>
-                      <div class="scores-table-pound col-md-2"><span>+45</span></div>
+              </div>
+              <div class="new-adds-check-head">
+                <label>
+                  <input type="checkbox" onclick="updateColor(this)"/>
+                  <div class="checked-items">
+                    <p>Выделить заголовок красным цветом</p><span>500 баллов</span>
+                  </div>
+                </label>
+              </div>
+              <div class="new-adds-check-ball">
+                <label>
+                  <input class="check-it" type="radio" name="new_adds_radio"/>
+                  <div class="checked-items">Поднять в топ на 3 часа<span>500 баллов</span></div>
+                </label>
+                <label>
+                  <input type="radio" name="new_adds_radio"/>
+                  <div class="checked-items">Поднять в топ на 12 часов<span>1 500 баллов</span></div>
+                </label>
+                <label>
+                  <input type="radio" name="new_adds_radio"/>
+                  <div class="checked-items">Поднять в топ на 24 часа<span>3 000 баллов</span></div>
+                </label>
+                <label>
+                  <input type="radio" name="new_adds_radio"/>
+                  <div class="checked-items">Поднять в топ на 72 часа<span>5 000 баллов</span></div>
+                </label>
+              </div>
+              <div class="new-adds-check-head">
+                <label>
+                  <input type="checkbox"/>
+                  <div class="checked-items">Опубликовать позже<span>500 баллов</span>
+                    <div class="date-input-bl">
+                      <input type="text" id="dateprice"/>
                     </div>
                   </div>
-                  <div class="scores-table-item">
-                    <div class="row">
-                      <div class="scores-table-date col-md-1"><span>13 августа</span></div>
-                      <div class="scores-table-text col-md-9"><span>Баллы за пребывание на сайте</span></div>
-                      <div class="scores-table-pound col-md-2"><span>+15</span></div>
-                    </div>
-                  </div>
-                  <div class="scores-table-item">
-                    <div class="row">
-                      <div class="scores-table-date col-md-1"><span>12 августа</span></div>
-                      <div class="scores-table-text col-md-9"><span>Баллы за пребывание на сайте</span></div>
-                      <div class="scores-table-pound col-md-2"><span>+80</span></div>
-                    </div>
-                  </div>
-                  <div class="scores-table-item">
-                    <div class="row">
-                      <div class="scores-table-date col-md-1"><span>12 августа</span></div>
-                      <div class="scores-table-text col-md-9"><span>Полная верификация аккаунта</span></div>
-                      <div class="scores-table-pound col-md-2"><span>+5 000</span></div>
-                    </div>
-                  </div>
-                  <div class="scores-table-item">
-                    <div class="row">
-                      <div class="scores-table-date col-md-1"><span>12 августа</span></div>
-                      <div class="scores-table-text col-md-9"><span>Регистрация на сайте</span></div>
-                      <div class="scores-table-pound col-md-2"><span>+500</span></div>
-                    </div>
-                  </div>
+                </label>
+              </div>
+              <div class="limit-block">
+                <p>Ваш суточный лимит публикации объявлений исчерпан</p>
+                <div class="limit-block-text">Бесплатно можно размещать не более трех объявлений в сутки. За баллы вы можете опубликовать объявление сейчас или в назначенное время.</div>
+              </div>
+              <div class="new-adds-check-button">
+                <div class="row">
+                  <button class="new-adds-button-l" disabled="disabled" id="dis-btn1">
+                    <div>Опубликовать<br/>сейчас за 500 баллов</div>
+                  </button>
+                  <button class="new-adds-button-r">
+                    <div>Сохранить<br/>в черновиках</div>
+                  </button>
                 </div>
               </div>
             </div>

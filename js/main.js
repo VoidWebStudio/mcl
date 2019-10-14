@@ -1,5 +1,6 @@
+
 var mySwiper1 = new Swiper('.slider1', {
-    slidesPerView: 2,
+    slidesPerView: 'auto',
     spaceBetween: 10,
     navigation: {
         nextEl: '.swiper-button-next1',
@@ -9,7 +10,7 @@ var mySwiper1 = new Swiper('.slider1', {
         640: {
             slidesPerView: 1,
             spaceBetween: 5,
-            width: 253
+            width: 253,
         },
         768: {
             slidesPerView: 1,
@@ -17,14 +18,13 @@ var mySwiper1 = new Swiper('.slider1', {
             width: 253
         },
         1024: {
-            slidesPerView: 2,
             spaceBetween: 20,
         },
     },
 });
 
 var mySwiper2 = new Swiper('.slider2', {
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 10,
     navigation: {
         nextEl: '.swiper-button-next2',
@@ -44,7 +44,6 @@ var mySwiper2 = new Swiper('.slider2', {
             spaceBetween: 20,
         },
         1024: {
-            slidesPerView: 2,
             spaceBetween: 20,
         },
     },
@@ -65,10 +64,10 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     function mask(event) {
-        var matrix = this.defaultValue,
-            i = 0,
-            def = matrix.replace(/\D/g, ""),
-            val = this.value.replace(/\D/g, "");
+        var matrix = "__.__.____",
+        i = 0,
+        def = matrix.replace(/\D/g, ""),
+        val = this.value.replace(/\D/g, "");
         def.length >= val.length && (val = def);
         matrix = matrix.replace(/[_\d]/g, function (a) {
             return val.charAt(i++) || "_"
@@ -78,30 +77,52 @@ window.addEventListener("DOMContentLoaded", function () {
         i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
         setCursorPosition(i, this)
     }
-
-    var input = document.querySelector("#date-input");
-    var input2 = document.querySelector("#phone-input");
-    if (input) {
-        input.addEventListener("input", mask, false)
-        input.oninput = function () {
-            var input_val = this.value;
-            var arrD = input_val.split(".");
-            arrD[1] -= 1;
-            var d = new Date(arrD[2], arrD[1], arrD[0]);
-            if ((2020 > arrD[2]) && (d.getFullYear() == arrD[2]) && (d.getMonth() == arrD[1]) && (d.getDate() == arrD[0])) {
-                this.classList.remove("act");
-                return true;
-            } else {
-                this.classList.add("act");
-                return false;
-            }
-
-
-        };
+    function mask2(event) {
+        var matrix = "+7 (___) ___-__-__",
+        i = 0,
+        def = matrix.replace(/\D/g, ""),
+        val = this.value.replace(/\D/g, "");
+        def.length >= val.length && (val = def);
+        matrix = matrix.replace(/[_\d]/g, function (a) {
+            return val.charAt(i++) || "_"
+        });
+        this.value = matrix;
+        i = matrix.lastIndexOf(val.substr(-1));
+        i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
+        setCursorPosition(i, this)
     }
-    if (input2) {
-        input2.addEventListener("input", mask, false)
-    }
+    function mask3(event) {
+       this.value = this.value.replace(/[^\d]/g, '');
+   }
+
+
+   var input = document.querySelector("#date-input");
+   var input2 = document.querySelector("#phone-input");
+   var input3 = document.querySelector("#code-input");
+   if (input) {
+    input.addEventListener("input", mask, false)
+    input.oninput = function () {
+        var input_val = this.value;
+        var arrD = input_val.split(".");
+        arrD[1] -= 1;
+        var d = new Date(arrD[2], arrD[1], arrD[0]);
+        if ((2020 > arrD[2]) && (d.getFullYear() == arrD[2]) && (d.getMonth() == arrD[1]) && (d.getDate() == arrD[0])) {
+            this.classList.remove("act");
+            return true;
+        } else {
+            this.classList.add("act");
+            return false;
+        }
+
+
+    };
+}
+if (input2) {
+    input2.addEventListener("input", mask2, false)
+}
+if (input3) {
+    input3.addEventListener("input", mask3, false)
+}
 
 });
 
@@ -135,6 +156,7 @@ for (var i = 0; i < serv_bt2.length; i++) {
 }
 
 var mob_clicks = document.querySelectorAll('.mob-menu-btn');
+var body_freez =  document.querySelector('body');
 for (var i = 0; i < mob_clicks.length; i++) {
     (function (i) {
         var click = mob_clicks[i];
@@ -143,11 +165,16 @@ for (var i = 0; i < mob_clicks.length; i++) {
             var child = parent.children[1];
 
             if (click.classList.contains("act")) {
+                document.querySelector('.content').classList.remove('body-active');
                 this.classList.remove("act");
                 child.classList.remove("act");
+                body_freez.style.overflow = "initial";
             } else {
+                body_freez.style.overflow = "hidden";
+                document.querySelector('.content').classList.add('body-active');
                 this.classList.add("act");
                 child.classList.add("act");
+                
             }
         }
     })(i);
@@ -499,15 +526,7 @@ $(".add-code").click(function () {
     $('.mobile-cod-block').addClass('act');
 
 });
-$(".mob-message button").click(function () {
 
-    $('.popup-message').addClass('act');
-
-});
-$('.close-mesage-popup').click(function () {
-    $('.popup-message').removeClass('act');
-
-});
 $(".mob-search button").click(function () {
 
     $('.header-mob-search').addClass('act');
@@ -625,6 +644,29 @@ if (ph_btn2) {
     }
 
 }
+$('.up_btn').click(function(){
+    var popup=$(this).parents('.my_adds_item').find('.adv-block-popup');
+    if ($(this).hasClass( "act" )) {
+        $(this).removeClass('act')
+        popup.removeClass('act')
+    } else {
+        $('.up_btn').removeClass('act')
+        $('.adv-block-popup').removeClass('act')
+        $(this).addClass('act')
+        popup.addClass('act')
+    }
+})
+$('.location-link').click(function(e){
+    e.preventDefault();
+    $('.city-block1').addClass('act');
+  
+})
+$('.close-page').click(function(e){
+    e.preventDefault();
+    $('.city-block1').removeClass('act');
+})
+
+
 if (document.querySelector('#range-input') !== null) {
     const input = document.querySelector('#range-input');
     const img = document.querySelector('#account-photo-change');
