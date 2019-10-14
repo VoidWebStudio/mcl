@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a16b416-b730-4adc-95f5-31243235d0ee" name="Default Changelist" comment="" />
+    <list default="true" id="54e8724a-02ad-42ff-b1cc-fec8fc012054" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favorites.html" beforeDir="false" afterPath="$PROJECT_DIR$/favorites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_without_reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_without_reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message2.html" beforeDir="false" afterPath="$PROJECT_DIR$/message2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/header2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/modules/header2.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_adds2.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_adds2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_adds.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_adds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_adds2.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_adds2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores2.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_obj2.html" beforeDir="false" afterPath="$PROJECT_DIR$/view_obj2.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +48,6 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/mcl_markup.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1S8x4s8WghVADHS03zukQ3UT04F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -47,6 +59,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/mcl-v2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -74,7 +87,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a16b416-b730-4adc-95f5-31243235d0ee" name="Default Changelist" comment="" />
+      <changelist id="54e8724a-02ad-42ff-b1cc-fec8fc012054" name="Default Changelist" comment="" />
       <created>1570920502517</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -85,6 +98,7 @@
       <workItem from="1571004469144" duration="58000" />
       <workItem from="1571004530473" duration="10591000" />
       <workItem from="1571053063693" duration="6974000" />
+      <workItem from="1571071380731" duration="262000" />
     </task>
     <servers />
   </component>

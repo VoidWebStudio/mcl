@@ -2836,9 +2836,7 @@ button.star-btn:hover {
     max-width: 375px;
     display: none;
     background: white;
-    padding: 11px 0 50px 0;
-    overflow-y: auto;
-    height: 100vh; }
+    padding: 11px 0 10px 0; }
   a.location-link-mob {
     text-decoration: none !important;
     padding-left: 30px;
