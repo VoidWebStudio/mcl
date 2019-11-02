@@ -283,7 +283,7 @@ span#pass-check {
     position: relative;
 }
 
-.auth-delete span {
+.auth-delete .clearable__clear {
     background: url('../images/Cancel2.png')no-repeat;
     border: none;
     width: 13px;
@@ -292,7 +292,8 @@ span#pass-check {
     right: 15px;
     top: 20px;
     background-position: center center;
-    display:block;
+    display: none;
+    user-select: none;
     cursor: pointer;
 }
 input.auth-input:focus {

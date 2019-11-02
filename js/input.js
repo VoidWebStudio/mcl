@@ -38,4 +38,16 @@ if(document.querySelector('.location-block') !==0){
     document.querySelector('.location-block').onmouseover = () => document.querySelector('.choose-region').style.display = 'block';
     document.querySelector('.location-block').onmouseleave = () => document.querySelector('.choose-region').style.display = 'none';
 }
+$(".auth-delete").each(function() {
 
+    var $inp = $(this).find("input"),
+        $cle = $(this).find(".clearable__clear");
+    $inp.on("input", function(){
+        $cle.toggle(!!this.value);
+    });
+    $cle.on("touchstart click", function(e) {
+        e.preventDefault();
+        $inp.val("").trigger("input");
+    });
+
+});

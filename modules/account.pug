@@ -37,7 +37,7 @@ div(class="content-block2 col-md-9")
               span(class="verification act") верифицирован
              div(class="auth-delete")
               input(type='email', class='auth-input reg-inp', placeholder="username@gmail.com")
-              span
+              span.clearable__clear
            div(class="account-form-right")
             span Адрес почты и телефон не показываются другим пользователям.
           div(class="row account-form-item")
@@ -46,7 +46,7 @@ div(class="content-block2 col-md-9")
              p Ваше имя
              div(class="auth-delete")
               input(type='text', class='auth-input reg-inp')
-              span
+              span.clearable__clear
            div(class="account-form-right")
             span Имя отображается другим пользователям в чатах во время переписки.
           div(class="row account-form-item")
@@ -57,7 +57,7 @@ div(class="content-block2 col-md-9")
               span(class="verification") Не верифицирован
              div(class="auth-delete")
               input(type='text', class='auth-input', id='phone-input', placeholder="+7 (___) ___-__-__")
-              span
+              span.clearable__clear
            div(class="account-form-right")
             button(class="account-button add-code", type="button")
              div Отправить КОд 
@@ -74,7 +74,7 @@ div(class="content-block2 col-md-9")
              p Дата рождения
              div(class="auth-delete")
               input(type='text', class='auth-input', id='date-input')
-              span
+              span.clearable__clear
            div(class="account-form-right") 
          div(class="account-form-btn")
           button(class="auth-item-button", disabled="disabled", id='dis-btn1')
@@ -91,14 +91,14 @@ div(class="content-block2 col-md-9")
            | Старый пароль
           div(class="auth-delete")
            input(type='password', class='auth-input reg-inp2')
-           span
+           span.clearable__clear
         div(class="account-pass")
          label(class="account-label")
           p
            | Новый пароль
           div(class="auth-delete")
            input(type='password', class='auth-input reg-inp2')
-           span
+           span.clearable__clear
          div(id="progress-bar" class='progress-bar1')
         div(class="account-pass")
          label(class="account-label")
@@ -106,7 +106,7 @@ div(class="content-block2 col-md-9")
            | Новый пароль еще раз
           div(class="auth-delete")
            input(type='password', class='auth-input reg-inp2')
-           span
+           span.clearable__clear
       div(class="account-form-btn")
        button(class="auth-item-button", disabled="disabled", id='dis-btn2')
         span Изменить пароль
